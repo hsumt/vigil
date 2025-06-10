@@ -2,3 +2,5 @@ requirements.txt
 venv/
 data/
 notebooks/
+__pycache__/
+*.pyc
