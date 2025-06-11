@@ -8,3 +8,4 @@ Then there will be something better by Battle at the Border or Beach Blitz in Oc
 
 
 
+Updated 6/11/2025: Apparently Statbotics and API and the FMS do not record team specific data except for the endgame. issues :(
