@@ -1,5 +1,6 @@
 from src.match_simulator import load_data, simulate_match
 from src.data_loader import group_data_by_team, load_match_data
+from src.anomaly_detection import detect_anomalies
 
 def main():
     filepath = 'data/Lovat.csv'
@@ -14,6 +15,17 @@ def main():
     if 2056 in team_groups:
         print("\nThe God Team Matches:s")
         print(team_groups[2056])
+    
+    for team, team_df in team_groups.items():
+        print(f"Anomalies of the Daly Division of team {team}")
+        anomalies = detect_anomalies(team_df)
+        if anomalies:
+            for a in anomalies:
+                print(f"-{a}")
+        else:
+            print("No anomalies detected cuz they too busted")
+
+
 
 '''while True:
         print("Welcome to Vigil!")
