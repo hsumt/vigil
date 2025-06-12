@@ -11,6 +11,7 @@ Then there will be something better by Battle at the Border or Beach Blitz in Oc
 Updated 6/11/2025: Apparently Statbotics and API and the FMS do not record team specific data except for the endgame. issues 😭
 
 Updated 6/12/2025: The new plan is to use Pandas to directly pull off the Raw Lovat data and to force its input
+Updated 6/12/2025 2 hours later: Very happy we got a basic prototype of anomaly working. Should be MUCH easier to continue
 
 
 
