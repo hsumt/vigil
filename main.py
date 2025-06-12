@@ -1,6 +1,7 @@
 from src.match_simulator import load_data, simulate_match
 from src.data_loader import group_data_by_team, load_match_data
 from src.anomaly_detection import detect_anomalies
+from src.performance_graphs import plot_team_performance
 
 def main():
     filepath = 'data/Lovat.csv'
@@ -60,6 +61,7 @@ def main():
 
                 if target_team in team_groups:
                     print("---------------------------------------")
+                    print("---------------------------------------")
                     print(f"\n Match List for Team {target_team}: ")
                     if target_team in team_groups:
                         print(f"\nTeam {target_team} Match Data: ")
@@ -75,6 +77,11 @@ def main():
                         print("No anomalies detected cuz they too busted")
                     print("---------------------------------------")
                     print("---------------------------------------")
+                    print("\n Graphs based on data will be opening in a new window: ")
+                    plot_team_performance(team_groups[target_team], target_team)
+
+
+
 
                 #for team, team_df in team_groups.items():
                 #print(f"Anomalies of the Daly Division of team {team}")
