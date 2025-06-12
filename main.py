@@ -1,40 +1,21 @@
 from src.match_simulator import load_data, simulate_match
-from src.file_manager import upload_file, loaded_files
+from src.data_loader import group_data_by_team, load_match_data
 
-def upload_menu():
-    while True:
-        print("\nChoose a file to upload:")
-        print("1: Overall Team Insights (all teams)")
-        print("2: All Teams EPA Breakdown")
-        print("3: Event Team Insights")
-        print("4: Event EPA Breakdown")
-        print("5: Event Alliance Insights")
-        print("6: Event Strength of Schedule")
-        print("7: Event Simulation")
-        print("8: Go Back to Main Menu")
-
-        choice = input("Your choice: ")
-
-        if choice == '1':
-            upload_file("Overall Insights", "2025_insights.csv")
-        elif choice == '2':
-            upload_file("All Teams EPA Breakdown", "2025_epa_breakdown.csv")
-        elif choice == '3':
-            upload_file("Event Team Insights", "2025isde1_team_insights.csv")
-        elif choice == '4':
-            upload_file("Event EPA Breakdown", "2025isde1_epa_breakdown.csv")
-        elif choice == '5':
-            upload_file("Event Alliance Insights", "2025isde1_alliance_insights.csv")
-        elif choice == '6':
-            upload_file("Event Strength of Schedule", "2025isde1_sos.csv")
-        elif choice == '7':
-            upload_file("Event Simulation", "2025isde1_simulation.csv")
-        elif choice == '8':
-            break
-        else:
-            print("Invalid selection. Please try again.")
 def main():
-    while True:
+    filepath = 'data/Lovat.csv'
+    df = load_match_data(filepath)
+    print("Loaded CSV: ")
+    print(df.head())
+    
+    team_groups = group_data_by_team(df)
+    print(f"\nFound {len(team_groups)} teams.")
+
+
+    if 2056 in team_groups:
+        print("\nThe God Team Matches:s")
+        print(team_groups[2056])
+
+'''while True:
         print("Welcome to Vigil!")
         response = input("1: Upload CSV from Statbotics\n2: Upload CSV from NOMAD Master Sheet\n3: View Health Trends\n4: Simulate Match \n5: Run Anomaly Detection \n6: Exit \nWwhat would you like to do?   ")
         try:
@@ -44,7 +25,7 @@ def main():
             continue
 
         if response == 1:
-            upload_menu()
+            break
         elif response == 2:
             print("Upload from NOMAD Master Sheet selected. (Feature coming soon!)")
         elif response == 3:
@@ -79,7 +60,7 @@ def main():
             print("Goodbye!")
             break
         else:
-            print("Invalid selection. Please try again.")
+            print("Invalid selection. Please try again.")'''
 
 if __name__ == "__main__":
     main()
