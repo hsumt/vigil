@@ -1,6 +1,6 @@
 # Vigil
 
-Vigil is a FRC robotics health monitor and predictive maintenance dashboard that monitors robotics teams' performance data over time - including reliability metrics, and detects when a team may be at risk of under/overperforming and what their current performance may be indicating.
+Vigil is a FRC robotics health monitor, anomaly detector, and predictive maintenance dashboard that monitors robotics teams' performance data over time - including reliability metrics, and detects when a team may be at risk of under/overperforming and what their current performance may be indicating.
 
 The end date for this project is TBD, but I am aiming for a fully working proto-version by June 13th. The goal is for it in the end to be workable at a competition like Fairbotics and then try to train a model using data from that competition, as well as competitions in the offseason like Chezy Champs, Sunset Showdown, and from the Einstein Field back in April. 
 
@@ -11,6 +11,7 @@ Then there will be something better by Battle at the Border or Beach Blitz in Oc
 Updated 6/11/2025: Apparently Statbotics and API and the FMS do not record team specific data except for the endgame. issues 😭
 
 Updated 6/12/2025: The new plan is to use Pandas to directly pull off the Raw Lovat data and to force its input
+Updated 6/12/2025 2 hours later: Very happy we got a basic prototype of anomaly working. Should be MUCH easier to continue
 
 
 
