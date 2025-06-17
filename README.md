@@ -13,7 +13,8 @@ Updated 6/11/2025: Apparently Statbotics and API and the FMS do not record team 
 Updated 6/12/2025: The new plan is to use Pandas to directly pull off the Raw Lovat data and to force its input
 Updated 6/12/2025 2 hours later: Very happy we got a basic prototype of anomaly working. Should be MUCH easier to continue
 
-
+Updated 6/16/2025 Performance Graphing. Viewing health trends works. Can compare teams now:
+![alt text](image.png)
 
 
 def upload_menu():
