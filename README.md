@@ -14,7 +14,6 @@ Updated 6/12/2025: The new plan is to use Pandas to directly pull off the Raw Lo
 Updated 6/12/2025 2 hours later: Very happy we got a basic prototype of anomaly working. Should be MUCH easier to continue
 
 Updated 6/16/2025 Performance Graphing. Viewing health trends works. Can compare teams now:
-![alt text](image.png)
 
 
 def upload_menu():
