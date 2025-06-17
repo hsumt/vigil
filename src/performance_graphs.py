@@ -44,7 +44,7 @@ def plot_teams_performance(team_groups, team_numbers):
     plt.ylim(bottom=min(label_positions) - 1)  # Add space for labels
 
     plt.tight_layout()
-    plt.show()
+    plt.show() #after numerous attempts
 '''   for team_number in team_numbers:
         team_df = team_groups[team_number].copy()
         team_df['match_num'] = team_df['match'].str.extract(r'(\d+)').astype(int)
