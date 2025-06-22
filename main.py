@@ -2,19 +2,45 @@ from src.match_simulator import load_data, simulate_match
 from src.data_loader import group_data_by_team, load_match_data
 from src.anomaly_detection import detect_anomalies
 from src.performance_graphs import plot_team_performance, plot_teams_performance
+from src.api import get_team_data, get_team_events, get_team_event_performance
+from src.comparison import analyze_team, compare_teams
 
 def main():
-    filepath = 'data/Lovat.csv'
-    df = load_match_data(filepath)
-    
-    print("Loaded CSV, continuing: ")
-    print(df.head())
-
-
-
+    vigilactive = False
     while True:
+        inputfile = input("Enter the filename of the .csv data you want to access. Do not write .csv at the end, only the name of the .csv filetype. Type 'Exit' if you want to cancel: ").strip()
+        
+        if inputfile.lower() == 'exit':
+            print("CSV loading cancelled.")
+            return  
+
+        filepath = f'data/{inputfile}.csv'
+
+        try:
+            df = load_match_data(filepath)
+            print("\nLoaded CSV successfully. Continuing...\n")
+            print(df.head())
+            vigilactive = True 
+            break
+        except FileNotFoundError:
+            print(f"File '{filepath}' not found. Please make sure the file is in the 'data' folder and try again.")
+        except Exception as e:
+            print(f"An error occurred while loading the file: {e}")
+
+
+    vigilactive == True
+
+    while vigilactive:
             print("Welcome to Vigil!")
-            response = input("1: Upload CSV from Lovat\n2: \n3: View Health Trends\n4: Simulate Match \n5: Run Anomaly Detection on current data \n6: Exit \nWwhat would you like to do?   ")
+            response = input("1: Upload CSV from Lovat" \
+            "\n2: Open Vigil Advisor " \
+            "\n3: View Health Trends" \
+            "\n4: Simulate Match " \
+            "\n5: Run Anomaly Detection on current data " \
+            "\n6: Get the matches of a team at an event and see history of the team overall " \
+            "\n7:Compare six teams and their stats (2025) " \
+            "\n8: Exit " \
+            "\nWwhat would you like to do?   ")
             try:
                 response = int(response)
             except ValueError:
@@ -140,9 +166,74 @@ def main():
                 #print(f"Anomalies of the Daly Division of team {team}")
                 #anomalies = detect_anomalies(team_df) ''' # This feeds the entire df in, for testing only. Usable later.
                 
-            
             elif response == 6:
+                team_number = input("Enter a team number to load history: ")
+                try:
+                    team_number_int = int(team_number)
+                except ValueError:
+                    print("Team number must be an integer.")
+                    continue
+
+                history_data = get_team_data(team_number)
+                if not history_data:
+                    print("Team not found in search")
+                    continue
+
+                year = input("Enter a year: ")
+                try:
+                    year_int = int(year)
+                except ValueError:
+                    print("Year must be an integer.")
+                    continue
+
+                events = get_team_events(team_number, year_int)
+                if not events:
+                    print(f"No events found for team {team_number} in {year_int}.")
+                    continue
+
+                print(f"Events for {team_number} in {year_int}:")
+                for event in events:
+                    print(f"{event['name']} ({event['key']})")
+
+                event_key = input("Please input the event key you want to search through: ")
+                matches = None
+                for event in events:
+                    if event_key == event['key']:
+                        matches = get_team_event_performance(f"frc{team_number}", event_key)
+                        break
+
+                if matches is None:
+                    print("Event not found or no match data.")
+                    return
+
+                print(f"\nMatches for {team_number} at {event_key}:")
+                for match in matches:
+                    print("---------------------------------------------")
+                    print(f"{match['comp_level']} {match['match_number']}")
+                    print(f"{match['score_breakdown']}")
+                    print("---------------------------------------------")
+                    print("---------------------------------------------")
+                analyze_team(team_number, history_data)
+            elif response == 7:
+                pf = load_data()  # Make sure pf is loaded here!
+                teams = []
+                for i in range(6):
+                    while True:
+                        t = input(f"Enter team {i+1}'s number: ")
+                        try:
+                            t_int = int(t)
+                        except ValueError:
+                            print("Team number must be an integer")
+                            continue
+                        if t_int in pf["num"].values:
+                            teams.append(t_int)
+                            break
+                        else:
+                            print(f"Team not found in data. Please re-enter.")
+                compare_teams(teams)                
+            elif response == 8:
                 print("Goodbye!")
+                vigilactive == False
                 exit()
             else:
                 print("Invalid selection. Please try again.")
