@@ -1,5 +1,5 @@
 def detect_anomalies(team_df, underperformance_margin=0.8):
-    "v1.0 of this function runs basic detection, there's nothing like z-scores yet i just need to test. It tests for <80%"
+    "v1.0 of this function runs basic detection for <80%"
     anomalies = []
 
     avg_auto = team_df['autoPoints'].mean()

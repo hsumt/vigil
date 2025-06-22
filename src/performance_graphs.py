@@ -20,9 +20,15 @@ def plot_teams_performance(team_groups, team_numbers):
 
         matches = df['match']
         auto_points = df['autoPoints']
-        
+        teleop_points = df['teleopPoints']
+
         x = list(range(len(matches)))
-        plt.plot(x, auto_points, marker='o', label=f'Team {team_number}', color=colors[idx])
+
+        # Plot Auto Points
+        plt.plot(x, auto_points, marker='o', label=f'Team {team_number} - Auto', color=colors[idx])
+
+        # Plot Teleop Points with dashed line
+        plt.plot(x, teleop_points, marker='s', linestyle='--', label=f'Team {team_number} - Teleop', color=colors[idx])
 
         # Collect x positions and label info
         x_positions.extend(x)
@@ -33,31 +39,19 @@ def plot_teams_performance(team_groups, team_numbers):
         if len(matches) > max_match_length:
             max_match_length = len(matches)
 
-    plt.title('Auto Points Comparison with Stacked Match Labels')
+    plt.title('Auto & Teleop Points Comparison with Stacked Match Labels')
     plt.xlabel('Custom X-Axis')
-    plt.ylabel('Auto Points')
+    plt.ylabel('Points')
     plt.legend()
     plt.grid(True)
+
     for x, y, text, color in zip(x_positions, label_positions, label_texts, label_colors):
         plt.text(x, y, text, ha='center', va='center', fontsize=10, color=color)
 
     plt.ylim(bottom=min(label_positions) - 1)  # Add space for labels
 
     plt.tight_layout()
-    plt.show() #after numerous attempts
-'''   for team_number in team_numbers:
-        team_df = team_groups[team_number].copy()
-        team_df['match_num'] = team_df['match'].str.extract(r'(\d+)').astype(int)
-        df = team_df.sort_values(by='match_num')
-        matches = df['match']
-        auto_points = df['autoPoints']
-        plt.plot(matches, auto_points, marker='o', label=f"Team {team_number}")
-    plt.title(f"TeleOp Point Comparison ({len(team_numbers)} teams)")
-    plt.xlabel('Match')
-    plt.ylabel("TeleOp Points")
-    plt.legend()
-    plt.xticks(rotation = 45)'''
-
+    plt.show()
 
 
 
