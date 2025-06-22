@@ -32,15 +32,15 @@ def main():
 
     while vigilactive:
             print("Welcome to Vigil!")
-            response = input("1: Upload CSV from Lovat" \
-            "\n2: Open Vigil Advisor " \
+            response = input("1: [WIP] Upload CSV from Lovat" \
+            "\n2: [WIP] Open Vigil Advisor " \
             "\n3: View Health Trends" \
             "\n4: Simulate Match " \
             "\n5: Run Anomaly Detection on current data " \
             "\n6: Get the matches of a team at an event and see history of the team overall " \
-            "\n7:Compare six teams and their stats (2025) " \
+            "\n7: Compare six teams and their stats (2025) " \
             "\n8: Exit " \
-            "\nWwhat would you like to do?   ")
+            "\nWhat would you like to do?   ")
             try:
                 response = int(response)
             except ValueError:
@@ -65,10 +65,20 @@ def main():
                         continue
                     if trend_response == 1:
                         print("\nTeam Averages:")
+                        sort_option = input("How would you like to sort? Enter 'auto' for highest-lowest auto and 'teleop' for highest-lowest teleop. Any other input to sort by team number.")
+                        team_averages = []
                         for team, team_df in team_groups.items():
                             avg_auto = team_df['autoPoints'].mean()
                             avg_tele = team_df['teleopPoints'].mean()
-                            print(f"Team {team} - Avg Auto: {avg_auto:.2f}, Avg Teleop: {avg_tele:.2f}")
+                            team_averages.append({'team': team, 'avg_auto': avg_auto, 'avg_tele':avg_tele})
+                        if sort_option == "teleop":
+                            team_averages.sort(key=lambda x: x['avg_tele'], reverse=True)
+                        elif sort_option == "auto":
+                            team_averages.sort(key=lambda x: x['avg_auto'], reverse=True)
+                        else:
+                            print("Invalid input. Displaying sorted by numerical team number . . .")
+                        for team_average in team_averages:
+                            print(f"Team {team_average['team']} - Avg Auto: {team_average['avg_auto']:.2f}, Avg Teleop: {team_average['avg_tele']:.2f}")
 
                     elif trend_response == 2:
                         print("\nPlotting Performance Graphs for All Teams...")
@@ -144,7 +154,9 @@ def main():
                     print(f"\n Match List for Team {target_team}: ")
                     if target_team in team_groups:
                         print(f"\nTeam {target_team} Match Data: ")
-                        print(team_groups[2056])
+                        print(team_groups[target_team])
+                    else:
+                        print("Team not found in data, returning to main menu")
                     print("---------------------------------------")
                     print("---------------------------------------")
                     print(f"\n Anomalies detected for Team {target_team}: ")
