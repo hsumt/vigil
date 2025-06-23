@@ -5,18 +5,17 @@ Vigil is a FRC robotics match trend monitor, anomaly detector, predictive dashbo
 ## Current Features
 - Simulate theoretical matchups between alliances
 - Calculate average autonomous and teleoperated scores
-- Prirotize teams based on custom criteria (Auto/Tele)
+- Priortize teams based on custom criteria (Auto/Tele)
+- Import CSV functionality
 
 ## Upcoming WIP Features
-- Import CSV functionality
+- Actual Interface not just a CLI prompter
 - ML model for proper analyzation
 
 ### Prereqs
 - Internet (API)
-- Matplotlib
-- Pandas
 - Python 3.x
-Please refer to the requirements.txt
+Please refer to the requirements.txt for pip-related installations.
 
 
 Data usage you import the current 2025_insights.csv off of Statbotics and then whatever Lovat csvs you want to use.
