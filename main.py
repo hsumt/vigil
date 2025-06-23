@@ -1,10 +1,10 @@
 from src.match_simulator import load_data, simulate_match
-from src.data_loader import group_data_by_team, load_match_data
+from src.data_loader import group_data_by_team, load_match_data, get_csv_from_user
 from src.anomaly_detection import detect_anomalies
 from src.performance_graphs import plot_team_performance, plot_teams_performance
 from src.api import get_team_data, get_team_events, get_team_event_performance
 from src.comparison import analyze_team, compare_teams
-from archive.vigil_assistant import start_vigil_assistant
+#from archive.vigil_assistant import start_vigil_assistant
 
 def main():
     vigilactive = False
@@ -33,7 +33,7 @@ def main():
 
     while vigilactive:
             print("Welcome to Vigil!")
-            response = input("1: [WIP] Upload CSV from Lovat" \
+            response = input("1: Upload CSV from Lovat" \
             "\n2: [WIP] Open Vigil Advisor " \
             "\n3: View Health Trends" \
             "\n4: Simulate Match " \
@@ -49,10 +49,18 @@ def main():
                 continue
 
             if response == 1:
-                print("Upload from NOMAD Master Sheet selected. (Feature coming soon!)")
+                print("Upload CSV")
+                new_df = get_csv_from_user()
+                new_filepath = new_df
+                if new_df is not None:
+                    df = new_df
+                    filepath = new_filepath
+                    print("Vigil is now using the newly uploaded CSV")
+                else:
+                    print(f"\nCSV Upload failed. Data remains selected on current {filepath}\n\n")
             elif response == 2:
-                print("Opening Vigil AI . . .")
-                start_vigil_assistant(df)
+                print("\n\nOpening Vigil AI . . .")
+                #start_vigil_assistant(df)
             elif response == 3:
                 print("Viewing Health Trends...")
                 team_groups = group_data_by_team(df)
