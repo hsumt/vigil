@@ -43,12 +43,13 @@ def simulate_match(team_numbers, pf, use_streamlit=True):
         team_endgame_points = row["endgame_epa"]
         if team_endgame_points > 12:
             team_endgame_points = 12
-        blue_stats["auto_points"] += row["auto_epa"]
-        blue_stats["teleop_points"] += row["teleop_epa"]
-        blue_stats["endgame_points"] += row["endgame_epa"]
+        blue_stats["auto_points"] += team_auto_points
+        blue_stats["teleop_points"] += team_teleop_points
+        blue_stats["endgame_points"] += team_endgame_points
         blue_stats["auto_rp"] += row["rp_1_epa"]
         blue_stats["coral_rp"] += row["rp_2_epa"]
         blue_stats["barge_rp"] += row["rp_3_epa"]
+
  #   print("Red Alliance Stats:")
   #  print(red_stats)
   #  print("Blue Alliance Stats:")
@@ -66,39 +67,26 @@ def simulate_match(team_numbers, pf, use_streamlit=True):
     for team in blue_alliance:
         team_name = pf[pf["num"] == team]["team"].values[0]
         blue_alliance_display.append(f"{team} - {team_name}")
-        
-    st.write("### Red Alliance:")
-    st.write(red_alliance_display)
-    st.write("### Blue Alliance:")
-    st.write(blue_alliance_display)
 
-    st.write("---")
-    st.write("## Match Scores")
-    st.write(f"**Red Alliance Total Score:** {int(red_total)}")
-    st.write(f"**Blue Alliance Total Score:** {int(blue_total)}")
+    def write_output(*args):
+        if use_streamlit:
+            for arg in args:
+                st.write(arg)
+        else:
+            for arg in args:
+                print(arg)
 
-    st.write("---")
-    st.write("### Detailed Scores")
-    st.write(f"Red Alliance Auto Points: {round(red_stats['auto_points'], 1)}")
-    st.write(f"Red Alliance Teleop Points: {round(red_stats['teleop_points'], 1)}")
-    st.write(f"Red Alliance Endgame Points: {round(red_stats['endgame_points'], 1)}")
-    st.write(f"Blue Alliance Auto Points: {round(blue_stats['auto_points'], 1)}")
-    st.write(f"Blue Alliance Teleop Points: {round(blue_stats['teleop_points'], 1)}")
-    st.write(f"Blue Alliance Endgame Points: {round(blue_stats['endgame_points'], 1)}")
-    '''    print("Red Alliance:", red_alliance_display)
-    print("Blue Alliance:", blue_alliance_display)
-
-    print()
-    print("---------------Match Scores---------------")
-    print(f"Red Alliance Total Score: {int(red_total)}")
-    print(f"Blue Alliance Total Score: {int(blue_total)}")
-
-    #print(f"Red Alliance RP: {red_stats['auto_rp'] + red_stats['coral_rp'] + red_stats['barge_rp']}")
-    #print(f"Blue Alliance RP: {blue_stats['auto_rp'] + blue_stats['coral_rp'] + blue_stats['barge_rp']}")
-    print("---------------Detailed Scores---------------")
-    print(f"Red Alliance Auto Points: {round(red_stats['auto_points'], 1)}")
-    print(f"Blue Alliance Auto Points: {round(blue_stats['auto_points'], 1)}")
-    print(f"Red Alliance Teleop Points: {round(red_stats['teleop_points'], 1)}")
-    print(f"Blue Alliance Teleop Points: {round(blue_stats['teleop_points'], 1)}")
-    print(f"Red Alliance Endgame Points: {round(red_stats['endgame_points'], 1)}")
-    print(f"Blue Alliance Endgame Points: {round(blue_stats['endgame_points'], 1)}")'''
+    write_output("### Red Alliance:", red_alliance_display)
+    write_output("### Blue Alliance:", blue_alliance_display)
+    write_output("---")
+    write_output("## Match Scores")
+    write_output(f"**Red Alliance Total Score:** {int(red_total)}")
+    write_output(f"**Blue Alliance Total Score:** {int(blue_total)}")
+    write_output("---")
+    write_output("### Detailed Scores")
+    write_output(f"Red Alliance Auto Points: {round(red_stats['auto_points'], 1)}")
+    write_output(f"Red Alliance Teleop Points: {round(red_stats['teleop_points'], 1)}")
+    write_output(f"Red Alliance Endgame Points: {round(red_stats['endgame_points'], 1)}")
+    write_output(f"Blue Alliance Auto Points: {round(blue_stats['auto_points'], 1)}")
+    write_output(f"Blue Alliance Teleop Points: {round(blue_stats['teleop_points'], 1)}")
+    write_output(f"Blue Alliance Endgame Points: {round(blue_stats['endgame_points'], 1)}")

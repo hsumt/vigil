@@ -148,7 +148,7 @@ def main():
                         else:
                             print("Team not found in data. Please re-enter.")
 
-                simulate_match(team_numbers, pf)
+                simulate_match(team_numbers, pf, use_streamlit=False)
 
             elif response == 5:
                 print("Anomaly Detection selected . . .")
@@ -170,7 +170,7 @@ def main():
                     print("---------------------------------------")
                     print("---------------------------------------")
                     print(f"\n Anomalies detected for Team {target_team}: ")
-                    anomalies = detect_anomalies(team_groups[target_team])
+                    anomalies = detect_anomalies(team_groups[target_team], use_streamlit=False)
                     if anomalies:
                         for a in anomalies:
                             print(f"-{a}")
@@ -252,7 +252,7 @@ def main():
                             break
                         else:
                             print(f"Team not found in data. Please re-enter.")
-                compare_teams(teams)                
+                compare_teams(teams, use_streamlit=False)                
             elif response == 8:
                 print("Goodbye!")
                 vigilactive == False

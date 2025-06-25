@@ -8,7 +8,7 @@ from src.api import get_team_data, get_team_events, get_team_event_performance
 from src.comparison import analyze_team, compare_teams
 
 # Streamlit app
-st.set_page_config(page_title="Vigil: FRC Scouting Dashboard", layout="wide")
+st.set_page_config(page_title="Vigil: FRC Scouting Analyzer", layout="wide")
 
 # Persistent session state
 if "current_df" not in st.session_state:
@@ -19,7 +19,7 @@ if "current_df" not in st.session_state:
 if "filepath" not in st.session_state:
     st.session_state.filepath = "Default Dataset"
 
-st.title("Vigil: FRC Scouting Dashboard")
+st.title("Vigil: FRC Scouting Analyzer")
 
 # Sidebar: File Loader
 st.sidebar.header("CSV Loader")
@@ -51,7 +51,7 @@ if menu == "Welcome":
     st.subheader("Welcome to Vigil 🚀")
     st.write(f"Current Dataset: `{st.session_state.filepath}`")
     st.write(f"Total teams in dataset: {len(team_groups)}")
-    st.write("Select a feature from the sidebar to get started!")
+    st.write("Select a feature from the sidebar to get started! WARNING: REMEMBER TO UPLOAD A CSV FILE FIRST")
 
 elif menu == "Simulate Match":
     st.subheader("🔧 Match Simulator")
@@ -173,7 +173,7 @@ elif menu == "Compare Teams":
 
     if st.button("Compare Teams"):
         if selected_teams:
-            compare_teams(selected_teams)
+            compare_teams(selected_teams, use_streamlit=True)
         else:
             st.warning("Please input valid teams to compare.")
 

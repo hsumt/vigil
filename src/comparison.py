@@ -1,14 +1,22 @@
 import pandas as pd
 import os
+def write_output(use_streamlit, *args):
+    if use_streamlit:
+        import streamlit as st
+        for arg in args:
+            st.write(arg)
+    else:
+        for arg in args:
+            print(arg)
 
-def analyze_team(team_number, data):
+def analyze_team(team_number, data, use_streamlit=True):
     if data is None:
-        print(f"No data found for team {team_number}")
+        write_output(f"No data found for team {team_number}")
         return
-    print(f"-----------Historical Data found for team {team_number}:------------")
-    print(data)
+    write_output(f"-----------Historical Data found for team {team_number}:------------")
+    write_output(use_streamlit, data)
     
-def compare_teams(teams):
+def compare_teams(teams, use_streamlit=True):
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_path = os.path.join(base_dir, "../data/2025_insights.csv")
     pf = pd.read_csv(data_path)
@@ -16,7 +24,7 @@ def compare_teams(teams):
     comparison_df = pf[pf['num'].isin(teams)]
 
     if comparison_df.empty:
-        print("No matching teams found in the data.")
+        write_output("No matching teams found in the data.")
         return
     
     comparison_df = comparison_df.sort_values(by="total_epa", ascending=False)
@@ -34,7 +42,12 @@ def compare_teams(teams):
         "rp_2_epa": "Coral RP",
         "rp_3_epa": "Barge RP"
     })
-
+    
     # Display as table
-    print("\nTeam Comparison:")
-    print(display_df.to_string(index=False))
+    write_output(use_streamlit, "\nTeam Comparison:")
+
+    if use_streamlit:
+        import streamlit as st
+        st.dataframe(display_df)
+    else:
+        write_output(use_streamlit, display_df.to_string(index=False))
