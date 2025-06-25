@@ -1,4 +1,5 @@
 import pandas as pd
+import streamlit as st
 import os
 import colorama as cd
 import random as rd
@@ -11,7 +12,7 @@ def load_data():
     return df
 
 
-def simulate_match(team_numbers, pf):
+def simulate_match(team_numbers, pf, use_streamlit=True):
     #this will come in as a list
     red_alliance = [int(team_numbers["red1"]), int(team_numbers["red2"]), int(team_numbers["red3"])]
     blue_alliance = [int(team_numbers["blue1"]), int(team_numbers["blue2"]), int(team_numbers["blue3"])]
@@ -65,8 +66,26 @@ def simulate_match(team_numbers, pf):
     for team in blue_alliance:
         team_name = pf[pf["num"] == team]["team"].values[0]
         blue_alliance_display.append(f"{team} - {team_name}")
+        
+    st.write("### Red Alliance:")
+    st.write(red_alliance_display)
+    st.write("### Blue Alliance:")
+    st.write(blue_alliance_display)
 
-    print("Red Alliance:", red_alliance_display)
+    st.write("---")
+    st.write("## Match Scores")
+    st.write(f"**Red Alliance Total Score:** {int(red_total)}")
+    st.write(f"**Blue Alliance Total Score:** {int(blue_total)}")
+
+    st.write("---")
+    st.write("### Detailed Scores")
+    st.write(f"Red Alliance Auto Points: {round(red_stats['auto_points'], 1)}")
+    st.write(f"Red Alliance Teleop Points: {round(red_stats['teleop_points'], 1)}")
+    st.write(f"Red Alliance Endgame Points: {round(red_stats['endgame_points'], 1)}")
+    st.write(f"Blue Alliance Auto Points: {round(blue_stats['auto_points'], 1)}")
+    st.write(f"Blue Alliance Teleop Points: {round(blue_stats['teleop_points'], 1)}")
+    st.write(f"Blue Alliance Endgame Points: {round(blue_stats['endgame_points'], 1)}")
+    '''    print("Red Alliance:", red_alliance_display)
     print("Blue Alliance:", blue_alliance_display)
 
     print()
@@ -82,4 +101,4 @@ def simulate_match(team_numbers, pf):
     print(f"Red Alliance Teleop Points: {round(red_stats['teleop_points'], 1)}")
     print(f"Blue Alliance Teleop Points: {round(blue_stats['teleop_points'], 1)}")
     print(f"Red Alliance Endgame Points: {round(red_stats['endgame_points'], 1)}")
-    print(f"Blue Alliance Endgame Points: {round(blue_stats['endgame_points'], 1)}")
+    print(f"Blue Alliance Endgame Points: {round(blue_stats['endgame_points'], 1)}")'''

@@ -1,4 +1,5 @@
 requirements.txt
+main.py
 venv/
 data/
 notebooks/
