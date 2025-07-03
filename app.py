@@ -21,7 +21,9 @@ if "filepath" not in st.session_state:
 
 st.title("Vigil: FRC Scouting Analyzer")
 
-# Sidebar: File Loader
+# Sidebar
+
+
 st.sidebar.header("CSV Loader")
 uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type="csv")
 if uploaded_file:
@@ -34,7 +36,9 @@ if uploaded_file:
     st.session_state.filepath = uploaded_file.name
     st.sidebar.success(f"Loaded {uploaded_file.name} successfully!")
 
-# Sidebar: Menu
+# Menu
+
+
 menu = st.sidebar.selectbox("Select a Feature", [
     "Welcome",
     "Simulate Match",
@@ -47,11 +51,19 @@ menu = st.sidebar.selectbox("Select a Feature", [
 df = st.session_state.current_df
 team_groups = group_data_by_team(df)
 
+
+# Welcomne
+
+
 if menu == "Welcome":
     st.subheader("Welcome to Vigil 🚀")
     st.write(f"Current Dataset: `{st.session_state.filepath}`")
     st.write(f"Total teams in dataset: {len(team_groups)}")
     st.write("Select a feature from the sidebar to get started! WARNING: REMEMBER TO UPLOAD A CSV FILE FIRST")
+
+
+#Simulate Match
+
 
 elif menu == "Simulate Match":
     st.subheader("🔧 Match Simulator")
@@ -75,6 +87,12 @@ elif menu == "Simulate Match":
 
     if st.button("Simulate Match"):
         simulate_match(team_numbers, pf)
+
+
+
+#Health Trends
+
+
 
 elif menu == "Health Trends":
     st.subheader("📊 Health Trends")
@@ -115,6 +133,10 @@ elif menu == "Health Trends":
             else:
                 st.warning("Please select at least one team.")
 
+
+#Anomaly Detection
+
+
 elif menu == "Anomaly Detection":
     st.subheader("🚨 Anomaly Detection")
 
@@ -131,6 +153,10 @@ elif menu == "Anomaly Detection":
             plot_team_performance(team_groups[target_team], target_team)
         else:
             st.warning("Team not found in the dataset.")
+
+
+#API (TBA/Statbotics access)
+
 
 elif menu == "API: Team History & Matches":
     st.subheader("🌐 API Lookup: Team History & Matches")
@@ -160,6 +186,10 @@ elif menu == "API: Team History & Matches":
                 st.warning("No matches found for this event.")
         else:
             st.error("No events found for this team and year.")
+
+
+#Team Comparison
+
 
 elif menu == "Compare Teams":
     st.subheader("🔍 Compare Teams")
