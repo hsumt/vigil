@@ -1,40 +1,92 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
+
 def plot_teams_performance(team_groups, team_numbers):
-    import matplotlib.pyplot as plt
-    import streamlit as st
+    plt.figure(figsize=(18, 8))
 
-    plt.figure(figsize=(16, 8))
-    colors = ['blue', 'green', 'red', 'purple', 'orange', 'brown']  # Max 6 teams
+    xtick_labels = []
+    x_positions = []
+    team_match_labels = {}
+    curr_pos = 0
 
-    for idx, team_number in enumerate(team_numbers):
+    for team_number in team_numbers:
         team_df = team_groups[team_number].copy()
-
-        # Clean + group by match, average multiple reports
         team_df['match_num'] = team_df['match'].str.extract(r'(\d+)').astype(int)
         grouped = team_df.groupby(['match', 'match_num']).mean(numeric_only=True).reset_index()
-        grouped = grouped.sort_values(by='match_num')
+        grouped = grouped.sort_values(by='match_num').reset_index(drop=True)
 
-        # X-axis will be string match labels, like Q1, Q2, etc.
-        match_labels = grouped['match']
-        auto_points = grouped['autoPoints']
-        teleop_points = grouped['teleopPoints']
+        # Also get Endgame status
+        endgame_status = team_df.groupby(['match', 'match_num'])['endgame'].first().reset_index()
+        grouped = grouped.merge(endgame_status, on=['match', 'match_num'], how='left')
 
-        # Plot lines with match names directly as x-axis
-        plt.plot(match_labels, auto_points, marker='o', label=f'Team {team_number} - Auto', color=colors[idx])
-        plt.plot(match_labels, teleop_points, marker='s', linestyle='--', label=f'Team {team_number} - Teleop', color=colors[idx])
+        match_nums = grouped['match_num'].tolist()
+        match_labels = [f"Q{n}" for n in match_nums]
 
-    plt.title('Auto & Teleop Points per Match (Averaged Across Reports)')
+        team_match_labels[team_number] = {
+            'match_nums': match_nums,
+            'auto': grouped['autoPoints'],
+            'teleop': grouped['teleopPoints'],
+            'endgame': grouped['endgame'],
+            'x_positions': list(range(curr_pos, curr_pos + len(match_nums)))
+        }
+
+        xtick_labels.extend(match_labels)
+        x_positions.extend(range(curr_pos, curr_pos + len(match_nums)))
+        curr_pos += len(match_nums) + 1
+        xtick_labels.append("")
+        x_positions.append(curr_pos - 1)
+
+    if xtick_labels and xtick_labels[-1] == "":
+        xtick_labels.pop()
+        x_positions.pop()
+
+    ax = plt.gca()
+    bar_width = 0.5
+
+    for team_number in team_numbers:
+        data = team_match_labels[team_number]
+        x = np.array(data['x_positions'])
+
+        # Bars
+        auto_vals = data['auto']
+        teleop_vals = data['teleop']
+        endgame_vals = []
+
+        for status in data['endgame']:
+            if isinstance(status, str):
+                status = status.upper()
+            if status == "DEEP":
+                endgame_vals.append(12)
+            elif status == "SHALLOW":
+                endgame_vals.append(6)
+            elif status == "NOT_ATTEMPTED":
+                endgame_vals.append(0)
+            else:
+                endgame_vals.append(2)
+        auto_bars = ax.bar(x, auto_vals, width=bar_width, color='purple', label='Auto')
+        teleop_bars = ax.bar(x, teleop_vals, width=bar_width, bottom=auto_vals, color='green', label='Teleop')
+        endgame_bars = ax.bar(x, endgame_vals, width=bar_width, bottom=(np.array(auto_vals) + np.array(teleop_vals)),
+                              color='orange', label='Endgame Bonus')
+
+    handles, labels = plt.gca().get_legend_handles_labels()
+    by_label = dict(zip(labels, handles))
+    plt.legend(by_label.values(), by_label.keys())
+
+    plt.title('Stacked Auto, Teleop, and Endgame Points per Match')
     plt.xlabel('Match')
     plt.ylabel('Points')
-    plt.xticks(rotation=45)  # Prevent label overlap
-    plt.legend()
-    plt.grid(True)
+    plt.grid(True, axis='y')
+    plt.xticks(x_positions, xtick_labels, rotation=0)
     plt.tight_layout()
-
     st.pyplot(plt)
     plt.close()
+    
+
+    
+
+
+
 
 
 
@@ -48,8 +100,8 @@ def plot_team_performance(team_df, team_number):
     
     plt.figure(figsize=(12,6))
 
-    plt.plot(matches, auto_points, marker='o', label='Auto Points', color="blue")
-    plt.plot(matches, teleop_points, marker='o', label='Teleop Points', color="green")
+    plt.bar(matches, auto_points, marker='o', label='Auto Points', color="blue")
+    plt.bar(matches, teleop_points, marker='o', label='Teleop Points', color="green")
 
     plt.title(f"Team {team_number}'s Performance Across Recorded matches")
     plt.legend(loc='upper left', fontsize = 'small')
@@ -59,3 +111,6 @@ def plot_team_performance(team_df, team_number):
 
     st.pyplot(plt)
     plt.close()
+
+
+

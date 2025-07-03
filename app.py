@@ -8,7 +8,7 @@ from src.api import get_team_data, get_team_events, get_team_event_performance
 from src.comparison import analyze_team, compare_teams
 
 # Streamlit app
-st.set_page_config(page_title="Vigil: FRC Scouting Analyzer", layout="wide")
+st.set_page_config(page_title="Vigil: FRC Scouting Analyzer 6995", layout="wide")
 
 # Persistent session state
 if "current_df" not in st.session_state:
@@ -122,12 +122,12 @@ elif menu == "Anomaly Detection":
     if st.button("Run Anomaly Detection"):
         if target_team in team_groups:
             anomalies = detect_anomalies(team_groups[target_team])
-            st.write("Detected Anomalies:")
-            if anomalies:
-                for anomaly in anomalies:
-                    st.write(f"- {anomaly}")
-            else:
-                st.success("No anomalies detected!")
+            #st.write("Detected Anomalies:")
+            #if anomalies:
+            #    for anomaly in anomalies:
+            #        st.write(f"- {anomaly}")
+            #else:
+             #   st.success("No anomalies detected!")
             plot_team_performance(team_groups[target_team], target_team)
         else:
             st.warning("Team not found in the dataset.")
@@ -177,4 +177,4 @@ elif menu == "Compare Teams":
         else:
             st.warning("Please input valid teams to compare.")
 
-st.write("© Vigil Scouting App - Powered by Streamlit 🚀")
+st.write("© Vigil Analyzer - Powered by Streamlit 🚀 - FRC Team 6995")

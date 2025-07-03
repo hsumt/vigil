@@ -1,14 +1,11 @@
 import pandas as pd
-import openai
 import os
+import requests
 from dotenv import load_dotenv
 import langchain
 
 load_dotenv()
 
-#OPEN_AI_AUTH_KEY = os.getenv("OPEN_AI_AUTH_KEY")
-
-client = openai.OpenAI()
 
 
 
@@ -22,6 +19,7 @@ def ask_vigil(question, df, features):
       - For best defenders: focus on 'defends', 'driverAbility', and 'notes'.
       - For best autos: focus on 'autoPoints' with full stat breakdowns.
       - For reliability: focus on low 'netFails', low 'coralDrops', high 'driverAbility', and check 'notes' for qualitative insights.
+      - For any other asks, just use the same logic that determined the above categories being used.
 
       IMPORTANT:
       - Recommend specific team numbers based on the scouting data provided.
