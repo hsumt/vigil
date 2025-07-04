@@ -1,0 +1,6 @@
+statbotics
+dotenv
+pandas
+colorama
+matplotlib
+numpy
