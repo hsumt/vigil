@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 def plot_teams_performance(team_groups, team_numbers):
-    plt.figure(figsize=(6*(len(team_numbers)), 8))
+    plt.figure(figsize=(6*(len(team_numbers)), 3*(len(team_numbers))))
 
     xtick_labels = []
     x_positions = []
