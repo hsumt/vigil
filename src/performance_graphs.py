@@ -111,8 +111,8 @@ def plot_team_performance(team_df, team_number):
     
     plt.figure(figsize=(12,6))
 
-    plt.bar(matches, auto_points, marker='o', label='Auto Points', color="blue")
-    plt.bar(matches, teleop_points, marker='o', label='Teleop Points', color="green")
+    plt.bar(matches, auto_points, label='Auto Points', color="blue")
+    plt.bar(matches, teleop_points, label='Teleop Points', color="green")
 
     plt.title(f"Team {team_number}'s Performance Across Recorded matches")
     plt.legend(loc='upper left', fontsize = 'small')
