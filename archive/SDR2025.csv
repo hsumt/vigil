@@ -1,0 +1,344 @@
+match,teamNumber,role,coralPickup,algaePickup,algaeKnocking,underShallowCage,teleopPoints,autoPoints,driverAbility,feeds,defends,coralPickups,algaePickups,coralDrops,algaeDrops,coralL1,coralL2,coralL3,coralL4,processorScores,netScores,netFails,activeAuton,endgame,scouter,notes
+Q1,3965,DEFENSE,STATION,NONE,FALSE,FALSE,4,3,2,0,8,1,0,0,0,1,0,0,0,0,0,0,TRUE,PARKED,Brook,Very slow and then there elevator broke and would not go up. The coral got stuck in the drive base and they played defense. 
+Q1,4919,OFFENSE,NONE,NONE,FALSE,FALSE,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,PARKED,Angella,No auto; apparently did not attempt to score in teleop; just wandered around the red side very slowly
+Q1,5137,OFFENSE,STATION,REEF,TRUE,FALSE,44,3,3,0,0,6,2,2,0,0,0,0,4,2,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Missed preload l4 in auto. Missed intact from station in auto. Inconsistent L4.
+Q1,5474,OFFENSE,STATION,NONE,FALSE,FALSE,19,3,3,0,0,7,0,3,0,1,0,0,3,0,0,0,TRUE,PARKED,Matthew,Inconsistent coralscorer. Only showed proficiency for l4 missed a lot and didn’t cycle fast. No climb
+Q1,6695,OFFENSE,NONE,NONE,FALSE,FALSE,0,3,3,0,0,1,0,1,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Aubrey,Stopped moving in the way of the reef after auto.
+Q1,7419,OFFENSE,STATION,REEF,TRUE,FALSE,43,10,4,0,0,13,2,2,2,1,0,6,4,0,0,0,TRUE,PARKED,Matthew,Fast cranberry alarm coral cycled. Undefended however. Struggles when pile up at station 
+Q2,766,OFFENSE,STATION,BOTH,TRUE,FALSE,52,6,4,0,0,10,3,1,1,1,0,0,8,2,0,0,TRUE,FAILED_DEEP,Sir Bopticious (Zeal),Park in endgame. Coral cycling about 6-7s. Missed both coral in auto.
+Q2,766,OFFENSE,STATION,GROUND,TRUE,FALSE,48,3,3,0,0,10,1,2,0,0,0,0,8,1,0,0,TRUE,PARKED,Aubrey,When climbing deep got stuck on deep cage. Smooth movement but slow alignment.
+Q2,2543,OFFENSE,STATION,NONE,TRUE,FALSE,50,6,3,0,0,10,0,1,0,1,0,2,6,0,0,0,TRUE,DEEP,Brook,Almost tipped over multiple times. A little slow but had very consistent L4 and can remove algae from reef good. 
+Q2,2984,OFFENSE,STATION,GROUND,TRUE,FALSE,32,3,3,0,0,2,7,2,2,0,0,0,0,5,0,0,TRUE,PARKED,Matthew,Floppy intake. Solid processor bot. Dealgae. Faulty auto that slammed reef and driver station wall. Does not do coral very well. Looks like the 3749 intake style. Can get stuck on algae. Did not noticeably have climb
+Q2,4160,OFFENSE,STATION,NONE,TRUE,FALSE,37,3,4,0,0,7,1,0,1,1,1,5,0,0,0,0,TRUE,DEEP,Matthew,Solid L4 scorer. Auto was faulty in this match. Check the other data for them. Nearly clocked ref. Not bad cycle times.  Started Climbing at :25
+Q2,7441,OFFENSE,STATION,NONE,FALSE,FALSE,15,3,1,0,0,3,0,0,0,0,0,0,3,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Started not moving around endgame. Around 30sec cycles.
+Q2,10586,OFFENSE,STATION,NONE,FALSE,FALSE,10,3,3,0,0,7,0,3,0,4,0,0,0,0,0,0,TRUE,PARKED,Angella,Kitbot! Mostly accurate intake; 2/6 l1 coral bounced out
+Q3,812,OFFENSE,STATION,GROUND,FALSE,FALSE,24,3,2,0,0,1,3,1,1,0,0,0,0,2,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Began deep climb at 46s. Focused on scoring algae in the processor. About 50-60% accurate.
+Q3,2658,OFFENSE,STATION,NONE,FALSE,FALSE,22,3,3,0,0,8,0,4,0,0,0,0,4,0,0,0,TRUE,PARKED,Jonas,Re scout; might be inaccurate. Flimsy hand and elevator; didn’t move for first 15-20.
+Q3,3341,OFFENSE,STATION,NONE,FALSE,FALSE,0,0,2,0,0,2,0,2,0,0,0,0,0,0,0,0,FALSE,FAILED_DEEP,Angella,Inefficient driving; auto apparently malfunctioned or maybe push auto; missed 1/1 coral
+Q3,8020,OFFENSE,STATION,NONE,TRUE,FALSE,43,10,3,0,0,8,0,0,0,0,0,4,4,0,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,15sec L4 cycle. Missed some station intakes. Faster L3 cycles. 
+Q3,10336,OFFENSE,NONE,NONE,FALSE,FALSE,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Brook,No show. 
+Q3,10392,OFFENSE,STATION,NONE,FALSE,FALSE,18,3,3,0,0,12,0,4,0,8,0,0,0,0,0,0,TRUE,PARKED,Matthew,Fast l1 kitbot cycled. Doesn’t do algae. Have them play defense for us in QM
+Q4,2485,OFFENSE,STATION,REEF,TRUE,FALSE,45,17,4,0,0,12,4,2,0,0,0,2,7,0,3,1,TRUE,FAILED_DEEP,Angella,Extremely fast coral scoring; very accurate
+Q4,2710,OFFENSE,STATION,NONE,FALSE,FALSE,31,10,3,0,0,8,0,3,0,0,0,1,4,0,0,0,TRUE,DEEP,Daniel,Not reliable intaking and scoring was mid climbed at 40 seconds 
+Q4,3704,DEFENSE,NONE,NONE,FALSE,FALSE,2,3,2,0,6,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Only taxi in auto. Defense was only slightly effective. No penalties.
+Q4,4419,OFFENSE,STATION,NONE,FALSE,FALSE,33,3,3,0,0,8,0,1,0,1,0,1,5,0,0,0,TRUE,PARKED,Aubrey,Wobbly wrist and struggle alignment making cycle slower.
+Q4,6995,OFFENSE,STATION,REEF,TRUE,FALSE,64,17,5,0,0,12,4,2,0,0,0,4,6,0,4,0,TRUE,DEEP,Matthew,Solid coral scorer. Fast cycling and consistent algae. Climbs around :20
+Q4,8119,OFFENSE,NONE,REEF,TRUE,FALSE,5,3,1,0,0,1,1,0,1,0,0,0,1,0,0,0,TRUE,NOT_ATTEMPTED,Yoshi,Very slow; i think it broke its arm; stopped after about 1min
+Q5,1622,OFFENSE,STATION,GROUND,FALSE,FALSE,8,3,3,0,0,3,2,3,1,0,0,0,0,1,0,0,TRUE,PARKED,Angella,Inconsistent coral intaking and inaccurate scoring; unreliable algae intaking
+Q5,2102,OFFENSE,STATION,NONE,TRUE,FALSE,36,10,3,0,0,13,3,5,3,0,0,1,7,0,0,0,TRUE,PARKED,Yoshi,Clears algae from reef well; a bit slow; failed to deep climb; about 50-50 chance to score; got 2 L4 in auto
+Q5,3128,OFFENSE,STATION,NONE,TRUE,FALSE,57,17,4,0,0,16,1,2,1,0,5,5,4,0,0,0,TRUE,DEEP,Sir Bopticious (Zeal),8s deep climb. Coral cycling about 7s. No algae mech. Consistent L2-L4
+Q5,3647,OFFENSE,STATION,NONE,FALSE,FALSE,12,3,3,0,0,5,0,3,0,0,0,0,2,0,0,0,TRUE,PARKED,Aubrey,Got coral stuff in robot because of ground intake. Wobbly hand.
+Q5,8870,OFFENSE,BOTH,NONE,FALSE,FALSE,6,3,2,0,0,4,0,0,0,3,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Brook,Very very slow. 
+Q5,8888,OFFENSE,STATION,NONE,TRUE,FALSE,20,0,3,0,0,4,3,1,1,3,0,0,0,2,0,0,FALSE,PARKED,Daniel,Can only do l1s and algae
+Q6,1572,OFFENSE,NONE,BOTH,TRUE,FALSE,0,3,2,0,0,1,4,1,4,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Missed scoring processor multiple times. Slow movement.
+Q6,2827,DEFENSE,NONE,NONE,FALSE,FALSE,2,3,2,0,4,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Defense was effective. Posted in front of coral station during teleop.
+Q6,2839,OFFENSE,STATION,NONE,FALSE,FALSE,30,3,4,0,0,9,0,2,0,0,0,0,6,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,Got 50 points on their own decent consistent l4s
+Q6,3255,OFFENSE,STATION,BOTH,TRUE,FALSE,40,10,3,0,0,14,4,4,0,5,0,1,4,0,4,0,TRUE,FAILED_DEEP,Angella,Reliable barge algae; accurate coral; had a moment of indecision; did a lot of l1
+Q6,4738,OFFENSE,STATION,REEF,TRUE,FALSE,70,17,4,0,0,16,3,0,0,0,4,6,6,2,0,1,TRUE,PARKED,Aubrey,Speedy; good auto; and filled most of reef.
+Q6,10625,OFFENSE,STATION,NONE,FALSE,FALSE,0,3,1,0,0,5,0,5,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Yoshi,Very slow; top heavy; not bulky; did not score anything and did not try to climb;
+Q7,4276,OFFENSE,STATION,NONE,FALSE,FALSE,14,3,3,0,0,25,0,22,0,0,0,3,0,0,0,0,TRUE,PARKED,Daniel,Can only do l3s
+Q7,4984,DEFENSE,NONE,NONE,FALSE,FALSE,2,0,3,0,9,1,0,0,0,0,0,0,0,0,0,0,FALSE,PARKED,Truss the great lord of the unknowable nothingness ,Only started playing defense when could not score. Was fast for defense but limited affect with station intake disruption 
+Q7,5514,OFFENSE,STATION,NONE,FALSE,FALSE,27,12,4,0,0,12,0,3,0,6,3,0,0,0,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Deep climb at 10s. Coral cycling about 11s. Consistent L1 and L2 scoring. No algae scoring.
+Q7,6515,OFFENSE,STATION,NONE,FALSE,FALSE,0,3,2,0,0,2,0,1,0,0,0,0,0,0,0,0,TRUE,FAILED_SHALLOW,Angella,Appeared to be browning out during most of the match; went to climb very early but fell of the shallow cage;
+Q7,8891,OFFENSE,STATION,REEF,TRUE,FALSE,28,10,4,0,0,7,5,4,0,0,0,0,3,0,4,1,TRUE,PARKED,Yoshi,Ok speed; top heavy when extended; can score algae in net; ok bulk
+Q7,9084,OFFENSE,STATION,NONE,TRUE,FALSE,38,17,3,0,0,13,0,2,0,0,1,5,5,0,0,0,TRUE,NOT_ATTEMPTED,Aubrey,Sslow intake because of robot.
+Q8,1538,OFFENSE,GROUND,NONE,FALSE,FALSE,50,10,4,0,0,15,0,2,0,0,3,4,6,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Missed two pieces in auto. Good ground intake makes cycles a lot faster. Pretty constant scoring 
+Q8,1972,OFFENSE,NONE,NONE,FALSE,FALSE,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,PARKED,Angella,Moved very slowly; did not do anything
+Q8,3749,OFFENSE,GROUND,NONE,TRUE,FALSE,3,3,3,0,0,3,0,2,0,0,1,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,Coral got stuck mid match inconsistent scoring
+Q8,6072,OFFENSE,NONE,GROUND,FALSE,FALSE,11,3,2,0,0,2,4,1,3,0,0,0,1,1,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Algae cycling in processor about 30s.
+Q8,9452,OFFENSE,STATION,REEF,TRUE,TRUE,64,3,3,0,0,9,3,1,0,0,2,2,4,3,0,0,TRUE,DEEP,Yoshi,Ok speed; ok bulk; not top heavy; can score algae; can score L4; messed up so scoring may not be acurate
+Q8,9573,OFFENSE,NONE,NONE,TRUE,FALSE,2,0,3,0,0,1,0,1,0,0,0,0,0,0,0,0,FALSE,PARKED,Aubrey,Got algae stuck in the middle of their robotm
+Q9,2658,OFFENSE,STATION,NONE,FALSE,FALSE,0,0,2,0,0,2,0,2,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Aubrey,Took forever to intake. And there line up was slow and their hand pivot was wobbly.
+Q9,5025,OFFENSE,NONE,NONE,FALSE,FALSE,24,6,3,0,0,8,0,1,0,7,0,0,0,0,0,0,TRUE,DEEP,Sir Bopticious (Zeal),L1 cycling about 15s. Began deep climb at 40s; but never got it.
+Q9,5474,OFFENSE,STATION,NONE,FALSE,FALSE,32,7,3,0,0,9,1,0,1,0,1,3,4,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,Decent at scoring
+Q9,6885,OFFENSE,STATION,NONE,TRUE,FALSE,14,3,3,0,0,4,0,1,0,0,0,3,0,0,0,0,TRUE,PARKED,Angella,Consistent but slow l3 scoring; removed 3 algae
+Q9,8119,OFFENSE,STATION,NONE,TRUE,FALSE,30,3,3,0,0,6,0,0,0,0,0,0,6,0,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Cleared 2 algae from reef. Had a slow speed.
+Q9,9730,IMMOBILE,NONE,NONE,FALSE,FALSE,2,0,3,0,0,1,0,1,0,0,0,0,0,0,0,0,FALSE,PARKED,Yoshi,Idk did nothing but drop it coral
+Q10,766,OFFENSE,STATION,NONE,FALSE,FALSE,47,0,4,0,0,9,0,0,0,0,0,0,9,0,0,0,FALSE,PARKED,Truss the great lord of the unknowable nothingness ,Did leave in auto. Relatively fast cycles.
+Q10,2102,OFFENSE,STATION,NONE,FALSE,FALSE,57,10,3,0,0,11,0,1,0,0,0,0,10,0,0,0,TRUE,DEEP,Aubrey,Fast intake but the coral mechanism would catch.
+Q10,3647,OFFENSE,NONE,NONE,FALSE,FALSE,5,3,3,0,0,4,0,2,0,0,0,0,1,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Coral hand hit algae intake. Got coral stuck on drivebase. Did not attempt climb.
+Q10,4419,OFFENSE,STATION,NONE,FALSE,TRUE,34,0,3,0,0,10,0,2,0,1,1,3,3,0,0,0,FALSE,PARKED,Yoshi,Ok speed; not top heavy; ok bulk; did not move in autos; 
+Q10,7419,OFFENSE,STATION,NONE,FALSE,FALSE,26,3,3,0,0,8,1,2,1,0,0,6,0,0,0,0,TRUE,PARKED,Daniel,Consistent l3
+Q10,10336,IMMOBILE,NONE,NONE,FALSE,FALSE,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Angella,No show
+Q11,2543,OFFENSE,STATION,GROUND,TRUE,FALSE,53,3,3,0,0,4,5,0,1,0,0,3,1,4,0,0,TRUE,DEEP,Aubrey,Won collisions. Algae intake got hit.
+Q11,2827,OFFENSE,STATION,NONE,FALSE,FALSE,4,3,3,0,3,1,0,0,0,1,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Coral intake struggled to work. Scored only in L1. Driving was a little jerky.
+Q11,3128,OFFENSE,STATION,NONE,TRUE,FALSE,43,24,4,0,0,16,0,3,0,1,0,4,8,0,0,0,TRUE,FAILED_DEEP,Angella,Clears algae as they score coral
+Q11,3704,DEFENSE,STATION,NONE,FALSE,TRUE,0,3,2,0,2,3,0,3,0,0,0,0,0,0,0,0,TRUE,FAILED_DEEP,Daniel,Defense mid 
+Q11,10392,OFFENSE,NONE,NONE,FALSE,FALSE,12,3,1,0,0,14,0,9,0,5,0,0,0,0,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Only can L1. Had to intake from station in specific way. Dropped coral multiple times. Inconsistent scoring.
+Q11,10586,OFFENSE,STATION,NONE,FALSE,FALSE,12,3,3,0,0,7,0,2,0,5,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Can only scope L1; slowish; not bulky; not top heavy; can't climb; can't score algae
+Q12,812,OFFENSE,NONE,BOTH,TRUE,FALSE,26,3,2,0,0,1,2,0,0,1,0,0,0,2,0,0,TRUE,DEEP,Aubrey,Chased algae  and 50 second climb.
+Q12,1622,OFFENSE,STATION,NONE,FALSE,FALSE,10,6,2,0,0,5,0,2,0,1,0,0,2,0,0,0,TRUE,NOT_ATTEMPTED,Angella,Inconsistent intaking and scoring; got stuck on the reef after scoring an l4
+Q12,4738,OFFENSE,STATION,REEF,TRUE,FALSE,53,17,4,0,0,10,2,1,0,0,1,2,6,1,1,0,TRUE,DEEP,Daniel,2 coral in auto 
+Q12,4919,OFFENSE,NONE,NONE,FALSE,FALSE,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,PARKED,Truss the great lord of the unknowable nothingness ,Slow did not really do anything 
+Q12,6515,OFFENSE,STATION,NONE,FALSE,TRUE,4,3,2,0,0,5,0,4,0,1,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Slow; intake can improve; not bulky; not top heavy 
+Q12,8870,OFFENSE,STATION,NONE,FALSE,FALSE,4,3,2,0,0,2,1,0,1,1,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),A little bit of the slower side. Only about 2 coral cycles.
+Q13,1572,OFFENSE,NONE,GROUND,TRUE,FALSE,18,3,3,0,0,1,5,1,2,0,0,0,0,3,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Moderately reliable algae scoring. No climb or park attempted
+Q13,1972,IMMOBILE,NONE,NONE,FALSE,FALSE,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Daniel,
+Q13,5137,OFFENSE,STATION,NONE,FALSE,FALSE,2,3,3,0,11,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Angella,Got a coral stuck in them and went to play defense; did ok but got some penalties
+Q13,6995,OFFENSE,STATION,REEF,TRUE,FALSE,61,24,5,0,0,17,1,0,0,0,3,5,9,0,0,1,TRUE,PARKED,Aubrey,GOOOO NOMAD
+Q13,8888,OFFENSE,STATION,NONE,FALSE,TRUE,6,0,2,0,0,7,0,5,0,2,0,0,0,0,0,0,FALSE,PARKED,Yoshi,Ok speed; ok bulk ok robot
+Q13,8891,OFFENSE,NONE,REEF,TRUE,FALSE,21,3,3,0,0,1,6,0,3,0,0,0,1,1,2,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Good at algae high but missed algae scoring in processor 
+Q14,2710,OFFENSE,STATION,NONE,FALSE,FALSE,2,3,1,0,0,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Daniel,Tried intaking for 2 minutes 
+Q14,2984,OFFENSE,NONE,REEF,FALSE,FALSE,2,3,2,0,0,1,1,1,1,0,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Slow; scored nothing; not bulky; maybe top heavy 
+Q14,3341,OFFENSE,STATION,NONE,FALSE,FALSE,22,0,3,0,0,7,0,3,0,0,0,0,4,0,0,0,FALSE,PARKED,Truss the great lord of the unknowable nothingness ,Very small intake. Could easily be defended at station. Slow lining up for L4 
+Q14,3749,OFFENSE,NONE,NONE,FALSE,FALSE,17,3,3,0,0,9,0,3,0,5,0,0,1,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),
+Q14,4984,OFFENSE,STATION,NONE,TRUE,FALSE,20,0,3,0,0,8,0,3,0,0,0,2,2,0,0,0,FALSE,PARKED,Cozette ,Cleared 1 algae from reef. Ineffective coral intake.
+Q14,9573,IMMOBILE,NONE,NONE,FALSE,FALSE,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Angella,No show 
+Q15,2485,OFFENSE,NONE,NONE,FALSE,FALSE,22,10,3,0,0,15,1,11,0,0,0,1,3,1,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Had problems with intaking at station. 
+Q15,3965,DEFENSE,NONE,NONE,FALSE,TRUE,0,3,3,0,7,1,0,1,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Went under their teams cages 3 times and hit their robot. Was very tippy and almost fell over 2-3 times 
+Q15,5025,OFFENSE,STATION,NONE,FALSE,TRUE,4,3,3,0,0,6,0,5,0,1,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Med speed; med bulk; failed deep climb 
+Q15,6885,OFFENSE,STATION,NONE,FALSE,FALSE,12,3,2,0,0,5,0,1,0,1,0,2,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Struggled with coral scoring. Only L2 and L3 scoring.
+Q15,7441,OFFENSE,STATION,NONE,FALSE,FALSE,17,3,2,0,0,3,0,0,0,0,0,0,3,0,0,0,TRUE,PARKED,Daniel,Very slow scoring and intaking 
+Q15,9452,OFFENSE,STATION,BOTH,TRUE,FALSE,64,3,3,0,0,9,3,1,1,0,0,0,8,2,0,0,TRUE,DEEP,Angella,Accurate l4; had a little trouble intaking ground algae
+Q16,2839,OFFENSE,STATION,NONE,FALSE,FALSE,35,10,3,0,0,8,0,0,0,0,0,0,8,0,0,0,TRUE,NOT_ATTEMPTED,Brook,A little slow but pretty good. (Noah be faster) 
+Q16,3255,OFFENSE,STATION,GROUND,FALSE,FALSE,45,24,5,0,0,12,3,0,1,3,0,5,4,2,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Got stuck on algae for 40 seconds. Fast cycles. 
+Q16,5514,OFFENSE,STATION,NONE,TRUE,FALSE,29,12,3,0,0,11,1,1,0,3,1,5,0,1,0,0,TRUE,NOT_ATTEMPTED,Cozette ,
+Q16,6072,OFFENSE,STATION,GROUND,FALSE,FALSE,21,3,3,0,0,4,1,1,0,0,1,0,2,1,0,0,TRUE,PARKED,Angella,
+Q16,6695,OFFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,1,3,0,3,0,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Coral cycling in L1 about 22s. A bit inconsistent with scoring.
+Q16,9730,OFFENSE,STATION,NONE,TRUE,FALSE,0,3,2,0,0,4,0,4,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,Not good intaking 
+Q17,1538,OFFENSE,BOTH,BOTH,TRUE,FALSE,50,10,5,0,0,13,3,1,0,3,3,2,4,0,3,0,TRUE,FAILED_DEEP,Sir Bopticious (Zeal),Awesome algae scoring: about 6s cycling. Scored in all four levels. Didn't have enough time for climb.
+Q17,4160,OFFENSE,STATION,NONE,FALSE,FALSE,15,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,FALSE,DEEP,Daniel,Climbed at 1 minute
+Q17,4276,OFFENSE,STATION,NONE,FALSE,FALSE,28,7,4,0,0,12,1,2,1,2,5,3,0,0,0,0,TRUE,NOT_ATTEMPTED,Matthew,L2 and L3 only. Average Joe bot. L1 is because of misses.
+Q17,8020,OFFENSE,STATION,NONE,FALSE,FALSE,44,10,2,0,0,9,0,1,0,0,1,1,6,0,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Very solid deep climb. Medium length cycles 
+Q17,9084,OFFENSE,STATION,REEF,TRUE,FALSE,62,24,4,0,0,18,1,1,0,0,4,6,7,0,1,0,TRUE,PARKED,Angella,Quick cycled; very accurate
+Q17,10625,DEFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,3,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Tank drive. Defense was moderately effective; and there caused no penalties. Only taxi in auto.
+Q18,1972,IMMOBILE,NONE,NONE,FALSE,FALSE,2,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,PARKED,Yoshi,Stopped and the light stopped blinking then did nothing; wiggled a lot probably had trouble reading April tags
+Q18,2543,OFFENSE,STATION,GROUND,TRUE,FALSE,54,3,4,0,0,7,2,1,0,0,0,0,6,2,0,0,TRUE,DEEP,Daniel,Good at scoring both algae and Coral
+Q18,2658,OFFENSE,STATION,NONE,FALSE,FALSE,22,0,3,0,0,7,0,3,0,0,0,0,4,0,0,0,FALSE,PARKED,Aubrey,Coral scoring slowwwwwww
+Q18,2658,OFFENSE,STATION,NONE,FALSE,FALSE,20,0,3,0,0,8,0,4,0,0,0,0,4,0,0,0,FALSE,NOT_ATTEMPTED,Cozette ,Tippy. Ineffective intake.
+Q18,5137,OFFENSE,STATION,NONE,FALSE,FALSE,22,3,3,0,0,4,0,2,0,0,0,0,2,0,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Consistent L4 cycling: about 12s per cycle. Began climb at 30s.
+Q18,6515,OFFENSE,STATION,NONE,FALSE,FALSE,2,3,1,0,0,2,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Very very slow. Took all match all match to intake a piece from station. Has small intake. Hit barge in endgame with arm.
+Q18,8888,OFFENSE,STATION,NONE,FALSE,FALSE,18,0,3,0,0,5,0,2,0,3,0,0,0,0,0,0,FALSE,DEEP,Angella,L1 bot; inconsistent intaking and scoring
+Q19,766,OFFENSE,STATION,NONE,FALSE,FALSE,33,6,3,0,0,11,0,2,0,1,1,0,6,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Great maneuvering around the reef. Consistent coral scoring.
+Q19,1622,OFFENSE,NONE,NONE,FALSE,FALSE,0,7,2,0,0,2,0,0,0,0,1,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Spider’s arm came off on the reef… so they just disabled early.
+Q19,2710,OFFENSE,STATION,NONE,FALSE,TRUE,47,3,3,0,0,10,0,2,0,0,0,0,7,0,0,0,TRUE,DEEP,Yoshi,Ok speed; ok bulk; not top heavy; good
+Q19,2827,DEFENSE,NONE,NONE,FALSE,TRUE,2,3,2,0,2,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Daniel,Not good at defense and stoped moving mid game
+Q19,3749,OFFENSE,GROUND,REEF,TRUE,FALSE,17,3,3,0,0,8,0,5,0,0,0,0,3,0,0,0,TRUE,PARKED,Angella,Dropped several coral; inconsistent handoff
+Q19,5474,OFFENSE,STATION,NONE,FALSE,FALSE,22,10,3,0,0,5,1,0,0,1,0,3,1,1,0,0,TRUE,PARKED,Cozette ,Intake failed from the station.
+Q19,5474,OFFENSE,STATION,NONE,FALSE,FALSE,6,0,2,0,0,2,0,1,0,0,0,1,0,0,0,0,FALSE,PARKED,Aubrey,Dropped alot of coral.
+Q20,1572,OFFENSE,NONE,NONE,TRUE,FALSE,2,3,2,0,0,1,2,1,2,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Approached deep cage but never climbed. Struggled under heavy defense.
+Q20,3341,OFFENSE,NONE,NONE,FALSE,FALSE,0,0,3,0,0,2,0,2,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,When into red cages in auto picking up fouls. Was Likely broken in some way by that; because they were not functioning well afterwards.
+Q20,3647,DEFENSE,STATION,NONE,FALSE,FALSE,7,3,3,0,10,1,0,0,0,0,0,0,1,0,0,0,TRUE,PARKED,Yoshi,Something was wrong; played defense
+Q20,4738,OFFENSE,STATION,NONE,FALSE,FALSE,14,24,2,0,0,6,0,0,0,0,0,3,3,0,0,0,TRUE,PARKED,Aubrey,Hand might have broke because of early park. Got defended well like OCR.
+Q20,4738,OFFENSE,STATION,NONE,FALSE,FALSE,10,24,3,0,0,6,0,0,0,0,0,2,3,0,0,0,TRUE,PARKED,Cozette ,
+Q20,7441,OFFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,0,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Stopped moving in teleop; and then went for park. Didn't see any scoring besides one L1.
+Q20,8119,OFFENSE,STATION,NONE,FALSE,FALSE,30,3,3,0,0,8,0,2,0,0,0,0,6,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,Not great scoring
+Q21,3128,OFFENSE,STATION,NONE,TRUE,FALSE,47,17,4,0,0,12,0,2,0,0,0,5,5,0,0,0,TRUE,DEEP,Daniel,Really good and quick scoring teamates we’re getting in the way
+Q21,3255,OFFENSE,STATION,REEF,TRUE,FALSE,53,10,4,0,0,15,4,3,2,1,3,5,3,2,0,0,TRUE,NOT_ATTEMPTED,Aubrey,Speedy cycles! Inconsistent algae intake from reef got caught once. Speedy intake.
+Q21,4419,OFFENSE,STATION,NONE,FALSE,FALSE,20,6,3,0,0,8,0,2,0,3,0,1,2,0,0,0,TRUE,PARKED,Angella,I was a little distracted as I was scouting
+Q21,4919,OFFENSE,STATION,REEF,TRUE,TRUE,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,PARKED,Yoshi,Mid speed; bad intake; ok bulk; ok robot over all but intake
+Q21,5025,OFFENSE,STATION,NONE,FALSE,FALSE,18,6,1,0,0,7,0,3,0,4,0,0,0,0,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Inconsistent scoring. Slow. Human player has to put in horizontaly
+Q21,6995,OFFENSE,STATION,BOTH,TRUE,FALSE,70,13,5,0,0,18,1,1,1,3,2,7,5,0,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Missed two in auto. Quick coral cycling: about 6s.
+Q22,5514,OFFENSE,STATION,NONE,TRUE,FALSE,31,9,3,0,0,14,2,3,2,2,5,4,0,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Good algae cycling. About 9s cycle time.
+Q22,7419,OFFENSE,STATION,NONE,TRUE,FALSE,30,3,3,0,0,9,3,3,3,0,0,0,6,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Coral cycle time about 10s. A little slowed down by defense.
+Q22,8020,OFFENSE,STATION,NONE,FALSE,FALSE,37,3,2,0,0,6,0,1,0,0,0,0,5,0,0,0,TRUE,DEEP,Aubrey,Wobbly score
+Q22,8020,OFFENSE,STATION,NONE,FALSE,FALSE,37,3,3,0,0,6,0,1,0,0,0,0,5,0,0,0,TRUE,DEEP,Cozette ,Only scored L4
+Q22,9573,OFFENSE,STATION,NONE,FALSE,FALSE,3,0,2,0,0,2,0,1,0,0,1,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Yoshi,Slow; intake was less then mid; not bulky; top heavy; did not try to climb; did not try to park
+Q22,10392,OFFENSE,STATION,NONE,FALSE,FALSE,18,3,3,0,0,11,0,3,0,8,0,0,0,0,0,0,TRUE,PARKED,Angella,
+Q22,10586,OFFENSE,STATION,NONE,FALSE,FALSE,8,3,2,0,0,6,0,3,0,3,0,0,0,0,0,0,TRUE,PARKED,Daniel,Not good at scoring kit bot slow
+Q23,2102,OFFENSE,NONE,NONE,FALSE,TRUE,52,10,4,0,0,10,0,1,0,0,0,0,9,0,0,0,TRUE,DEEP,Yoshi,Fast; good scoring; ok bulk; not top heavy 
+Q23,2984,OFFENSE,STATION,NONE,TRUE,FALSE,18,3,2,0,0,3,3,2,1,0,0,1,0,2,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Very tippy. Coral scoring not consistent.
+Q23,4984,OFFENSE,STATION,NONE,FALSE,FALSE,5,3,2,0,0,1,0,0,0,0,0,0,1,0,0,0,TRUE,NOT_ATTEMPTED,Angella,Disabled a minute into tele
+Q23,6695,OFFENSE,STATION,NONE,FALSE,FALSE,0,3,1,0,0,1,0,0,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Matthew,disabled halfway thru. idle at station wall failedcoral intake
+Q23,6885,OFFENSE,STATION,NONE,FALSE,FALSE,6,3,2,0,0,3,0,1,0,1,0,1,0,0,0,0,TRUE,NOT_ATTEMPTED,Brook,Very slow
+Q23,10625,DEFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,4,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Daniel,Not great at defense but can’t score
+Q24,812,OFFENSE,NONE,REEF,TRUE,TRUE,18,3,3,0,0,1,3,1,2,0,0,0,0,1,0,0,TRUE,DEEP,Yoshi,Ok speed ok bulk not top heavy 
+Q24,1538,OFFENSE,GROUND,REEF,TRUE,FALSE,64,24,4,0,0,13,2,0,0,0,5,0,8,2,0,0,TRUE,DEEP,Angella,
+Q24,3965,IMMOBILE,NONE,NONE,FALSE,FALSE,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Matthew,No show.
+Q24,4160,OFFENSE,STATION,NONE,FALSE,FALSE,35,0,3,0,0,10,0,1,0,1,2,5,1,0,0,0,FALSE,PARKED,Sir Bopticious (Zeal),Popped an algae after getting stuck on it. Coral cycling time about 12s.
+Q24,8891,OFFENSE,STATION,NONE,TRUE,FALSE,30,10,3,0,0,7,0,0,0,0,0,2,5,0,0,0,TRUE,PARKED,Aubrey,Ok all around.
+Q24,9730,OFFENSE,STATION,NONE,FALSE,FALSE,4,0,2,0,0,7,0,6,0,1,0,0,0,0,0,0,FALSE,PARKED,Truss the great lord of the unknowable nothingness ,Hit barge in auto. Missed all but one coral on L1. Only tried L1 
+Q25,2839,OFFENSE,STATION,NONE,FALSE,FALSE,22,3,3,0,0,4,0,0,0,0,0,0,4,0,0,0,TRUE,PARKED,Angella,Slow but consistent l4
+Q25,3704,OFFENSE,NONE,NONE,FALSE,FALSE,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,A cord was broken swinging around the robot. Didn’t move much.
+Q25,8870,OFFENSE,GROUND,NONE,FALSE,FALSE,6,3,2,0,0,4,0,2,0,2,0,0,0,0,0,0,TRUE,PARKED,Aubrey,Slowwwww ground intake.
+Q25,9084,OFFENSE,STATION,REEF,TRUE,FALSE,49,24,4,0,0,18,2,2,2,0,5,6,5,0,0,0,TRUE,NOT_ATTEMPTED,Yoshi,Good speed; can score from L4-L2; ok bulk; not top heavy 
+Q25,9452,OFFENSE,STATION,NONE,TRUE,TRUE,20,3,3,0,0,2,3,1,0,0,0,0,0,0,2,1,TRUE,DEEP,Cozette ,Played offense at the beginning then switched over to defense.
+Q25,10336,IMMOBILE,NONE,NONE,FALSE,FALSE,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Stayed in blue Barge zone the entire match. Received several fouls.
+Q26,2485,OFFENSE,NONE,BOTH,TRUE,FALSE,20,10,3,0,0,2,3,0,2,1,0,0,1,1,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Deep climbed at 1min. Scored 1 algae in the processor. Only taxi in auto.
+Q26,2827,DEFENSE,NONE,NONE,FALSE,TRUE,2,3,3,0,7,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Ok; played 
+Q26,4276,OFFENSE,STATION,NONE,FALSE,FALSE,26,6,3,0,0,13,0,5,0,1,2,5,0,0,0,0,TRUE,NOT_ATTEMPTED,Angella,Consistent l2 and l3; unreliable l1
+Q26,6072,OFFENSE,GROUND,NONE,FALSE,FALSE,7,3,3,0,0,2,0,1,0,0,0,0,1,0,0,0,TRUE,PARKED,Aubrey,Ok all around.
+Q26,6995,OFFENSE,NONE,NONE,FALSE,FALSE,53,17,5,0,0,13,2,4,0,0,3,0,6,2,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Fast cycles. Solid climb. Good movement.
+Q26,7441,OFFENSE,STATION,NONE,FALSE,FALSE,10,3,3,0,0,3,0,1,0,0,0,0,2,0,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Ineffective coral intake.
+Q27,2543,DEFENSE,NONE,GROUND,FALSE,TRUE,30,3,3,0,7,1,3,1,0,0,0,0,0,3,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Several penalties while on defense. Bumper unfolding. Slowed down opposing alliance only a little.
+Q27,2710,OFFENSE,STATION,NONE,FALSE,FALSE,22,3,3,0,0,4,0,0,0,0,0,0,4,0,0,0,TRUE,PARKED,Aubrey,Got defended well. Wobbly scoring.
+Q27,4419,OFFENSE,STATION,NONE,FALSE,TRUE,14,10,3,0,7,6,0,2,0,0,1,1,2,0,0,0,TRUE,PARKED,Cozette ,Played offense and defense. 
+Q27,4738,OFFENSE,STATION,REEF,TRUE,TRUE,42,10,4,0,0,13,2,1,1,1,4,3,3,1,0,0,TRUE,NOT_ATTEMPTED,Yoshi,Fast; can score algae; can score coral on all levels; score may not be acurate 
+Q27,7419,OFFENSE,STATION,NONE,TRUE,FALSE,29,0,4,0,0,9,0,3,0,1,0,0,5,0,0,0,FALSE,PARKED,Truss the great lord of the unknowable nothingness ,Fast coral cycles. Missed placements a few times.
+Q27,8020,OFFENSE,STATION,NONE,TRUE,FALSE,36,10,3,0,0,7,1,1,1,0,0,1,5,0,0,0,TRUE,DEEP,Angella,Turret makes them more difficult to defend while intaking; slow but accurate scoring
+Q28,1972,DEFENSE,NONE,NONE,FALSE,TRUE,2,0,3,0,4,1,0,1,0,0,0,0,0,0,0,0,FALSE,PARKED,Sir Bopticious (Zeal),Temporarily stuck on an algae. Played a few fouls. Medium speed. A few good pins.
+Q28,3128,OFFENSE,STATION,NONE,TRUE,FALSE,51,17,5,0,0,16,0,4,0,1,2,4,5,0,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Very fast movement.  Good driving. 
+Q28,3341,OFFENSE,STATION,NONE,FALSE,FALSE,15,3,2,0,0,4,0,0,0,0,0,0,3,0,0,0,TRUE,NOT_ATTEMPTED,Aubrey,Got hit by defence and became immobile. 
+Q28,5514,OFFENSE,STATION,NONE,TRUE,FALSE,29,3,3,0,0,11,0,1,0,4,3,3,0,0,0,0,TRUE,FAILED_SHALLOW,Angella,Consistent l1; l2; and l3; got stuck on algae for 10ish secs
+Q28,6515,OFFENSE,STATION,NONE,FALSE,TRUE,2,3,2,0,2,2,0,2,0,0,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Slowish robot; mid intake; did not try to climb; driver was ok 
+Q28,6885,OFFENSE,STATION,NONE,TRUE,FALSE,8,3,2,0,0,7,0,5,0,0,0,2,0,0,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Ineffective coral intake kept dropping coral.
+Q29,1538,OFFENSE,GROUND,BOTH,TRUE,FALSE,43,24,5,0,0,14,3,0,0,1,5,3,5,0,1,2,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Quick maneuvering around the reef. Cycling time about 5s. Deep climb at the last moment.
+Q29,4160,OFFENSE,STATION,REEF,TRUE,TRUE,36,3,3,0,0,7,2,0,2,0,0,6,0,0,0,0,TRUE,DEEP,Yoshi,ok speed; ok driver about average; 
+Q29,4984,OFFENSE,STATION,NONE,FALSE,FALSE,26,3,3,0,0,6,0,1,0,0,0,1,4,0,0,0,TRUE,PARKED,Aubrey,Inconsistent scoring because their robots arm doesnt reach the top of Lv 4.
+Q29,5137,OFFENSE,STATION,REEF,FALSE,FALSE,40,10,4,0,0,6,3,1,1,0,0,0,5,0,2,0,TRUE,DEEP,Cozette ,
+Q29,8119,OFFENSE,NONE,NONE,FALSE,FALSE,9,3,3,0,0,4,0,1,0,0,0,1,1,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Fast driving. Disabled. 
+Q29,10586,OFFENSE,STATION,NONE,FALSE,FALSE,12,3,3,0,0,6,0,1,0,5,0,0,0,0,0,0,TRUE,PARKED,Angella,Consistent l1 kitbot
+Q30,766,OFFENSE,STATION,NONE,TRUE,FALSE,35,9,3,0,0,12,0,2,0,2,2,1,5,0,0,0,TRUE,NOT_ATTEMPTED,Angella,Reliable intaking;not the most consistent scoring
+Q30,2839,OFFENSE,STATION,NONE,FALSE,FALSE,30,3,3,0,0,9,0,1,0,0,1,3,3,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Coral cycling about 15s. Moderately consistent L4. Medium driving.
+Q30,8888,OFFENSE,STATION,GROUND,FALSE,FALSE,6,3,1,0,0,3,0,1,0,2,0,0,0,0,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Slow movement. Dropped algae across the field to the other side.
+Q30,9573,OFFENSE,NONE,NONE,FALSE,FALSE,0,3,1,0,0,1,0,0,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Aubrey,Coral fell through the robot into the robot via intake.
+Q30,9730,OFFENSE,STATION,NONE,FALSE,FALSE,2,3,3,0,0,3,0,3,0,0,0,0,0,0,0,0,TRUE,PARKED,Cozette ,Ineffective intake and scoring.
+Q30,10392,OFFENSE,STATION,NONE,FALSE,FALSE,12,3,2,0,0,10,0,4,0,6,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Yoshi,Can't climb; slowish; driver was ok 
+Q31,1622,OFFENSE,STATION,NONE,FALSE,FALSE,5,3,2,0,0,3,0,2,0,0,0,0,1,0,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Top heavy. Had trouble intaking.
+Q31,3704,DEFENSE,NONE,NONE,FALSE,TRUE,2,0,3,0,10,1,0,0,0,0,0,0,0,0,0,0,FALSE,PARKED,Sir Bopticious (Zeal),Played effective defense. Not really fast; but moderate speed. No fouls.
+Q31,6072,OFFENSE,NONE,NONE,FALSE,FALSE,16,3,2,0,0,6,2,5,0,1,0,0,0,2,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Slow elevator. Got coral stuck in robot. Takes a while to intake from reef.
+Q31,6695,OFFENSE,STATION,NONE,FALSE,FALSE,2,7,2,0,0,2,0,1,0,0,1,0,0,0,0,0,TRUE,PARKED,Yoshi,Ok speed; driver was meh
+Q31,8891,OFFENSE,STATION,REEF,TRUE,FALSE,32,3,3,0,0,5,2,0,0,1,0,0,4,0,2,0,TRUE,PARKED,Aubrey,Tippy
+Q31,10336,DEFENSE,NONE,NONE,FALSE,FALSE,0,3,2,0,1,1,0,1,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,Stayed on their side of the field and defended e defense bot not good driving
+Q32,2102,OFFENSE,NONE,NONE,TRUE,FALSE,56,3,4,0,0,10,0,1,0,0,0,1,8,0,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Very fast. Solid consistent L4
+Q32,3749,OFFENSE,STATION,NONE,FALSE,FALSE,17,10,3,0,0,7,0,2,0,0,1,1,3,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Missed a lot of coral. Driving was on the slower side; but still maneuvered well.
+Q32,4276,OFFENSE,STATION,REEF,TRUE,TRUE,42,15,4,0,0,13,3,2,3,0,5,6,0,0,0,0,TRUE,DEEP,Yoshi,Fast and good at scoring; did not score L4 or algae; removed all algae from reef; driver was good
+Q32,4919,OFFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,0,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Cozette ,Robot stopped working mid round.
+Q32,5025,OFFENSE,STATION,NONE,FALSE,FALSE,20,3,2,0,0,4,0,0,0,4,0,0,0,0,0,0,TRUE,DEEP,Aubrey,Slow.
+Q32,9084,OFFENSE,STATION,NONE,FALSE,FALSE,58,22,5,0,0,19,0,3,0,0,1,5,10,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,Almost flawless coral scoring driving was really good
+Q33,1572,OFFENSE,NONE,GROUND,FALSE,FALSE,2,3,2,0,0,1,3,1,3,0,0,0,0,0,0,0,TRUE,PARKED,Cozette ,
+Q33,2658,OFFENSE,STATION,NONE,TRUE,FALSE,8,0,2,0,0,2,0,0,0,0,2,0,0,0,0,0,FALSE,PARKED,Aubrey,Slow
+Q33,2984,OFFENSE,STATION,NONE,FALSE,TRUE,2,3,3,0,2,2,1,2,1,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Driving was medium. Only went for park.
+Q33,3255,OFFENSE,STATION,NONE,FALSE,FALSE,59,17,4,0,0,14,2,3,0,2,0,4,5,2,0,0,TRUE,DEEP,Daniel,Good at scoring but a little wobbly which made them miss some
+Q33,3965,IMMOBILE,NONE,NONE,FALSE,FALSE,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Yoshi,No show
+Q33,8870,OFFENSE,STATION,NONE,FALSE,FALSE,10,3,1,0,0,4,0,1,0,0,0,0,2,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Very slow. Very easily got 2 coral pieces stuck in drive base could not get them out…. got a lot of fouls. 
+Q34,812,OFFENSE,NONE,REEF,TRUE,FALSE,16,3,3,0,0,1,3,1,0,0,0,0,0,2,1,0,TRUE,FAILED_DEEP,Daniel,Algae from reef only no coral
+Q34,2485,OFFENSE,NONE,NONE,FALSE,FALSE,12,6,2,0,0,3,0,2,0,1,0,0,0,0,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Was defended easily. Tried to farm foul points did not work.
+Q34,3647,DEFENSE,NONE,NONE,FALSE,TRUE,0,3,4,0,22,1,0,1,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Aubrey,Good defence and limited if any fouls or penalties 
+Q34,5474,OFFENSE,STATION,NONE,TRUE,FALSE,8,7,2,0,0,3,1,0,1,0,3,0,0,0,0,0,TRUE,PARKED,Yoshi,Meh driver; meh robot; meh scoring; 
+Q34,9452,DEFENSE,NONE,NONE,FALSE,FALSE,2,3,5,0,7,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Missed coral in auto. Awesome defense.
+Q34,10625,DEFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,12,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Cozette ,Played defense.
+Q35,1972,OFFENSE,NONE,NONE,FALSE,FALSE,2,3,1,0,0,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Hit blue cage. Didn’t do anything else
+Q35,2827,OFFENSE,STATION,NONE,FALSE,FALSE,2,3,2,0,4,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Cozette ,Jerky movement.
+Q35,3341,OFFENSE,STATION,NONE,FALSE,FALSE,32,0,3,0,0,5,0,1,0,0,0,0,4,0,0,0,FALSE,DEEP,Sir Bopticious (Zeal),Great donut climb. Good coral cycling: about 18s. Auto crashed straight into blue cages. Good driving between station and reef.
+Q35,4160,OFFENSE,NONE,NONE,TRUE,FALSE,32,3,4,0,0,8,0,0,0,1,0,7,0,0,0,0,TRUE,PARKED,Daniel,Can only do l3s consistent tho
+Q35,4419,OFFENSE,STATION,NONE,TRUE,TRUE,21,3,2,0,0,9,1,5,1,0,0,1,3,0,0,0,TRUE,PARKED,Yoshi,Meh driver; meh speed; intake was good; scoring was meh
+Q35,9730,OFFENSE,STATION,NONE,FALSE,FALSE,6,3,1,0,0,3,0,1,0,2,0,0,0,0,0,0,TRUE,PARKED,Aubrey,Almost tipped over. Spun in circles.
+Q36,4738,OFFENSE,STATION,NONE,FALSE,FALSE,7,24,3,0,0,5,0,0,0,0,0,0,4,0,0,0,TRUE,PARKED,Daniel,Got stuck in middle
+Q36,4984,DEFENSE,NONE,NONE,FALSE,TRUE,2,3,3,0,4,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Ok robot ok driver; sturdy 
+Q36,5514,OFFENSE,STATION,REEF,TRUE,FALSE,30,6,3,0,0,11,1,3,1,6,0,2,0,0,0,0,TRUE,DEEP,Cozette ,
+Q36,6995,OFFENSE,STATION,REEF,TRUE,FALSE,12,3,3,0,0,2,0,2,0,0,0,0,0,0,0,0,TRUE,DEEP,Angella,Wrist was not homed 😭😭😭
+Q36,8888,OFFENSE,NONE,NONE,FALSE,FALSE,2,3,4,0,4,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Defense was effective. Only taxi in auto.
+Q37,1622,OFFENSE,STATION,NONE,FALSE,TRUE,11,9,3,0,0,9,0,5,0,1,1,2,0,0,0,0,TRUE,PARKED,Yoshi,Ok robot; good driver; intake was meh; scoring was meh
+Q37,2102,OFFENSE,STATION,NONE,FALSE,FALSE,43,10,3,0,0,12,0,4,0,1,0,1,6,0,0,0,TRUE,DEEP,Daniel,Flawless intake but scoring was mid
+Q37,7441,OFFENSE,STATION,NONE,FALSE,FALSE,15,3,1,0,0,3,0,0,0,0,0,0,3,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Very slow
+Q37,8119,OFFENSE,STATION,NONE,FALSE,FALSE,43,3,3,0,0,10,0,1,0,0,1,0,8,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),About 80% accuracy coral scoring. 
+Q37,8891,OFFENSE,STATION,REEF,TRUE,FALSE,31,3,3,0,0,1,6,0,0,0,0,0,1,0,6,0,TRUE,PARKED,Cozette ,
+Q37,10392,OFFENSE,STATION,NONE,FALSE,FALSE,0,6,3,0,0,3,0,1,0,1,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Angella,They were disabled for most of teleop
+Q38,766,OFFENSE,STATION,NONE,FALSE,TRUE,57,10,3,0,0,11,0,0,0,0,0,0,10,0,0,0,TRUE,DEEP,Yoshi,Good robot but shaky; not top heavy; driver was ok 
+Q38,3128,OFFENSE,STATION,GROUND,TRUE,FALSE,53,24,4,0,0,12,3,0,2,1,2,3,6,1,0,0,TRUE,DEEP,Angella,Very fast and consistent coral scoring; scored 2 algae in the opponent processor
+Q38,3965,DEFENSE,NONE,NONE,FALSE,FALSE,2,3,2,0,4,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Daniel,Slow bot good at defense
+Q38,6072,OFFENSE,NONE,GROUND,FALSE,FALSE,30,3,3,0,0,1,5,1,0,0,0,0,0,5,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Good at processor but only can do that  
+Q39,2485,OFFENSE,STATION,REEF,TRUE,TRUE,53,17,4,0,0,12,2,2,0,0,0,3,7,0,1,1,TRUE,DEEP,Yoshi,Good balanced robot; good driver; for such under a algae but recovered quickly; not top heavy; 
+Q39,2839,OFFENSE,STATION,NONE,FALSE,FALSE,46,3,4,0,0,13,0,4,0,0,0,1,8,0,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Medium to fast cycles going but was not defended at all. 
+Q39,2984,OFFENSE,NONE,GROUND,FALSE,FALSE,18,10,3,0,0,1,4,0,1,0,0,0,1,3,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Got coral stuck in robot and so only did alage pick up for the rest. Only scored in processor.
+Q39,4919,OFFENSE,NONE,BOTH,TRUE,FALSE,2,0,2,0,0,1,2,1,2,0,0,0,0,0,0,0,FALSE,PARKED,Angella, Slow
+Q39,5137,OFFENSE,NONE,NONE,FALSE,FALSE,6,0,2,0,0,3,2,2,2,0,0,1,0,0,0,0,FALSE,PARKED,Sir Bopticious (Zeal),Only scored about 3 coral. Only taxi in auto.
+Q39,8020,OFFENSE,STATION,NONE,FALSE,FALSE,31,10,4,0,0,7,0,2,0,0,0,1,4,0,0,0,TRUE,DEEP,Daniel,Driving is meh did onlyl 4s
+Q40,2543,OFFENSE,STATION,NONE,FALSE,FALSE,41,6,4,0,0,8,2,2,1,1,1,0,4,1,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Good cycling speed. About 10s per cycle. 
+Q40,4276,OFFENSE,STATION,NONE,FALSE,FALSE,38,7,4,0,0,9,1,1,1,0,3,5,0,0,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Good solid movement. Speed fast / medium fast 
+Q40,5474,OFFENSE,STATION,NONE,FALSE,FALSE,26,3,3,0,0,9,0,3,0,0,2,0,4,0,0,0,TRUE,NOT_ATTEMPTED,Angella,
+Q40,6695,OFFENSE,STATION,NONE,FALSE,TRUE,2,3,1,0,0,4,0,3,0,0,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Meh robot; meh driver 
+Q40,8870,OFFENSE,GROUND,NONE,FALSE,FALSE,13,3,1,0,0,5,0,1,0,3,0,0,1,0,0,0,TRUE,PARKED,Daniel,Was acting like a lost child didn’t know what to do
+Q40,9573,OFFENSE,STATION,BOTH,TRUE,FALSE,9,3,2,0,0,3,2,2,1,0,1,0,0,1,0,0,TRUE,NOT_ATTEMPTED,Cozette ,
+Q41,1538,OFFENSE,GROUND,REEF,TRUE,FALSE,59,10,4,0,0,8,4,0,0,0,0,0,8,0,3,1,TRUE,DEEP,Daniel,Really good at coral algae also good
+Q41,1572,OFFENSE,STATION,NONE,TRUE,TRUE,20,6,2,0,0,7,1,1,1,1,0,5,0,0,0,0,TRUE,NOT_ATTEMPTED,Yoshi,Ok speed; meh robot; ok driver 
+Q41,3704,DEFENSE,STATION,NONE,FALSE,FALSE,12,3,4,0,9,1,0,0,0,0,0,0,0,0,0,0,TRUE,DEEP,Cozette ,
+Q41,5025,OFFENSE,STATION,NONE,FALSE,FALSE,22,6,3,0,0,6,0,0,0,6,0,0,0,0,0,0,TRUE,DEEP,Angella,Not very fast but consistent
+Q41,6515,OFFENSE,STATION,NONE,FALSE,FALSE,8,3,1,0,0,5,0,2,0,3,0,0,0,0,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Very slow. Intake is a stick that holds coral. Cycles very slow. If they get bumped at all the coral would fall off their hand.
+Q41,7419,OFFENSE,STATION,NONE,FALSE,FALSE,42,0,3,0,0,11,0,3,0,0,0,0,8,0,0,0,FALSE,PARKED,Sir Bopticious (Zeal),Coral cycling about 16s. No deep climb.
+Q42,812,OFFENSE,NONE,GROUND,FALSE,FALSE,26,3,3,0,0,1,4,1,0,0,0,0,0,4,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Reliable auto scoring. No coral scoring.
+Q42,3255,OFFENSE,STATION,REEF,TRUE,TRUE,46,24,5,0,0,8,2,0,0,0,0,3,5,2,0,0,TRUE,DEEP,Yoshi,Got stuck under a algae; but fast and quick other wise; good driver
+Q42,3647,DEFENSE,NONE,NONE,TRUE,FALSE,2,3,3,0,43,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Angella,Played ok defense; got no penalties; was not playing the most active defense
+Q42,3749,OFFENSE,STATION,NONE,FALSE,FALSE,2,10,2,0,0,2,0,0,0,0,0,0,1,0,0,0,TRUE,PARKED,Cozette ,
+Q42,6885,OFFENSE,STATION,NONE,FALSE,FALSE,8,3,2,0,0,3,1,3,0,0,0,0,0,1,0,0,TRUE,PARKED,Daniel,Not good intaking can’t hold coral well
+Q43,766,OFFENSE,STATION,NONE,FALSE,FALSE,62,3,3,0,0,13,0,2,0,0,0,5,6,0,0,0,TRUE,DEEP,Angella,Missed 2 l4 in auto; consistent coral intaking and scoring during teleop
+Q43,1972,OFFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,0,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Cozette ,Spun in circles and decided to park early.
+Q43,2710,OFFENSE,NONE,NONE,FALSE,FALSE,42,3,5,0,0,11,0,1,0,0,0,5,4,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Tried to deep climb; but never got off the ground. Great coral cycling. Driving was really good.
+Q43,8891,OFFENSE,STATION,REEF,FALSE,FALSE,31,17,4,0,0,7,6,0,2,0,3,2,2,0,3,1,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Pretty good at coral and algae in barge. Fast
+Q43,9452,OFFENSE,STATION,REEF,TRUE,FALSE,31,10,2,0,0,8,3,2,1,0,0,0,6,0,1,1,TRUE,PARKED,Daniel,Very slow scoring l4 kinda reliable algae
+Q43,10625,OFFENSE,STATION,NONE,FALSE,TRUE,2,3,2,0,0,2,0,2,0,0,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Meh robot; ok driver; very top heavy 
+Q44,1622,OFFENSE,STATION,NONE,FALSE,FALSE,20,6,4,0,0,7,2,0,2,3,2,2,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Good cycling: about 13s. Driving was moderately good.
+Q44,2485,OFFENSE,STATION,REEF,TRUE,TRUE,46,10,5,0,0,12,3,3,1,0,4,0,5,2,0,0,TRUE,PARKED,Yoshi,Good all around; good driver; did not have time to climb
+Q44,2658,IMMOBILE,NONE,NONE,FALSE,FALSE,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Daniel,No show
+Q44,4160,OFFENSE,STATION,REEF,TRUE,FALSE,32,3,3,0,0,5,2,0,2,0,0,5,0,0,0,0,TRUE,DEEP,Cozette ,
+Q44,4419,DEFENSE,STATION,NONE,FALSE,FALSE,2,3,3,0,0,2,0,2,0,0,0,0,0,0,0,0,TRUE,PARKED,Angella,Went to play defense with 1:15 left; played ok defense
+Q44,5514,OFFENSE,STATION,GROUND,FALSE,FALSE,38,12,3,0,0,12,4,2,2,3,2,5,0,1,0,0,TRUE,SHALLOW,Truss the great lord of the unknowable nothingness ,I’m tired idk
+Q45,2102,OFFENSE,STATION,NONE,TRUE,FALSE,26,17,3,0,0,12,0,4,0,4,2,0,2,0,0,0,TRUE,DEEP,Angella,Cleared 3 algae off the reef then scored a bunch of l1; only attempted l1 and l2 
+Q45,2543,OFFENSE,NONE,NONE,FALSE,FALSE,50,3,4,0,0,9,0,0,0,0,2,3,4,0,0,0,TRUE,DEEP,Cozette ,Quick intake and fast scoring on L4
+Q45,3341,OFFENSE,STATION,NONE,FALSE,FALSE,5,10,3,0,0,3,0,1,0,0,1,0,1,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Good maneuvering around traffic. No climb.
+Q45,5137,OFFENSE,STATION,REEF,TRUE,FALSE,19,10,3,0,0,7,0,1,0,0,3,2,1,0,0,0,TRUE,PARKED,Daniel,Was able to do l4s but they chose to do l3 and l2!????????¿
+Q45,6072,OFFENSE,NONE,GROUND,FALSE,TRUE,38,3,3,0,0,1,6,1,0,0,0,0,0,6,0,0,TRUE,PARKED,Yoshi,Goodish; ok robot; meh driver 
+Q45,9084,OFFENSE,STATION,NONE,TRUE,FALSE,28,24,5,0,2,10,2,1,2,0,0,4,5,0,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Fast. Got coral stuck temporarily. Something broke
+Q46,4984,OFFENSE,NONE,NONE,FALSE,FALSE,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Disabled like 5 seconds into tele
+Q46,5025,OFFENSE,STATION,NONE,FALSE,FALSE,18,6,1,0,0,5,0,1,0,4,0,0,0,0,0,0,TRUE,DEEP,Daniel,Waddling around the field
+Q46,5474,OFFENSE,STATION,NONE,FALSE,FALSE,30,6,4,0,0,8,0,1,0,1,0,0,6,0,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Bumpers were dragging 
+Q46,7441,OFFENSE,STATION,NONE,FALSE,FALSE,22,3,3,0,0,5,0,1,0,0,0,0,4,0,0,0,TRUE,PARKED,Angella,
+Q46,8020,OFFENSE,STATION,NONE,TRUE,FALSE,41,10,3,0,0,8,2,1,2,0,0,1,6,0,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Reliable L2 and L3; and moderately consistent L4.
+Q46,8870,OFFENSE,STATION,NONE,FALSE,TRUE,9,3,3,0,0,3,0,1,0,1,0,0,1,0,0,0,TRUE,PARKED,Yoshi,Slowish; med driver; bulky
+Q47,812,OFFENSE,STATION,REEF,FALSE,FALSE,36,3,2,0,0,1,4,1,0,0,0,0,0,4,0,0,TRUE,DEEP,Cozette ,Did not place algae into the processor hard enough. It barely made it into the processor.
+Q47,1572,OFFENSE,GROUND,REEF,TRUE,FALSE,32,6,3,0,0,6,2,0,0,1,0,5,0,2,0,0,TRUE,NOT_ATTEMPTED,Angella,Had some trouble intaking one of the coral
+Q47,2827,OFFENSE,NONE,NONE,FALSE,FALSE,0,3,1,0,0,1,1,1,1,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Super slow did nothing
+Q47,3128,OFFENSE,STATION,NONE,FALSE,TRUE,59,3,4,0,0,16,0,5,0,1,0,5,5,0,0,0,TRUE,DEEP,Yoshi,Ok speed;ok driver; over all good
+Q47,3749,OFFENSE,GROUND,NONE,FALSE,FALSE,12,3,2,0,0,9,0,3,0,6,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Not very fast. Only scored L1. No attempt to climb. Disabled just before end of match.
+Q47,9573,DEFENSE,NONE,NONE,FALSE,TRUE,2,3,3,0,17,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Aubrey,Decent defence. I think they broke or lost a part
+Q48,2710,OFFENSE,STATION,NONE,FALSE,FALSE,35,3,4,0,0,7,0,0,0,0,0,0,7,0,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Effective scoring and intake.
+Q48,2984,OFFENSE,NONE,GROUND,FALSE,FALSE,14,3,3,0,27,1,4,1,2,0,0,0,0,2,0,0,TRUE,PARKED,Angella,Scored 2 algae in each processor and then played defense
+Q48,3255,OFFENSE,STATION,REEF,TRUE,FALSE,63,3,5,0,0,13,2,2,0,0,4,4,3,0,2,0,TRUE,DEEP,Aubrey,Speedy and maneuverable!
+Q48,4276,OFFENSE,NONE,NONE,FALSE,FALSE,28,10,3,0,0,8,2,2,2,1,1,4,0,0,0,0,TRUE,DEEP,Truss the great lord of the unknowable nothingness ,Very inconstant with intaking.
+Q48,9730,OFFENSE,NONE,NONE,FALSE,TRUE,2,0,4,0,6,1,0,1,0,0,0,0,0,0,0,0,FALSE,PARKED,Yoshi,Good driver; meh robot
+Q48,10336,IMMOBILE,NONE,NONE,FALSE,FALSE,0,3,3,0,0,1,0,0,0,0,0,0,0,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Only points scored for taxi. Basically immobile for the rest of the match.
+Q49,3965,OFFENSE,NONE,NONE,FALSE,FALSE,2,3,1,0,0,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Truss the great lord of the unknowable nothingness ,Slow did not do anything
+Q49,6515,OFFENSE,STATION,NONE,FALSE,FALSE,22,3,1,0,0,3,0,1,0,0,0,0,2,0,0,0,TRUE,DEEP,Aubrey,Slow arm
+Q49,6995,OFFENSE,STATION,GROUND,FALSE,FALSE,26,24,4,0,0,11,2,4,2,0,3,0,4,0,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Missed some auto and releop coral shots. Climbed at 10s.
+Q49,7419,OFFENSE,STATION,NONE,FALSE,FALSE,34,10,4,0,0,11,1,1,1,0,3,5,2,0,0,0,TRUE,NOT_ATTEMPTED,Cozette ,Shaky arm but fast intake.
+Q49,10392,OFFENSE,STATION,NONE,FALSE,TRUE,14,3,2,0,0,10,0,4,0,6,0,0,0,0,0,0,TRUE,PARKED,Yoshi,Slow; scores L1; driver was ok 
+Q49,10625,DEFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,2,1,0,1,0,0,0,0,0,0,0,0,TRUE,PARKED,Angella,
+Q50,1538,OFFENSE,BOTH,BOTH,TRUE,FALSE,56,17,4,0,0,15,1,0,0,5,4,2,4,0,1,0,TRUE,DEEP,Jonas,Very efficient ground pick up. Auto did not shoot out last piece and drove away.
+Q50,2839,OFFENSE,NONE,NONE,FALSE,FALSE,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,FALSE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Something was wrong with their bot. It just moved around in basically the same spot for most of the match.
+Q50,3647,OFFENSE,NONE,NONE,FALSE,FALSE,15,3,3,0,0,4,0,0,0,0,0,0,3,0,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Had problems with elevator or smth 
+Q50,3704,DEFENSE,NONE,NONE,FALSE,TRUE,0,0,2,0,7,1,0,1,0,0,0,0,0,0,0,0,FALSE,FAILED_DEEP,Aubrey,Fast and ok defence but less maneuverable driving.
+Q50,4738,OFFENSE,STATION,REEF,TRUE,FALSE,72,24,4,0,0,16,2,0,0,0,4,5,7,0,2,0,TRUE,DEEP,Cozette ,Cleared 4 algae and had effective scoring and intake.
+Q50,6885,OFFENSE,STATION,NONE,TRUE,FALSE,10,3,3,0,0,4,0,1,0,1,0,2,0,0,0,0,TRUE,NOT_ATTEMPTED,Angella,
+Q51,4919,OFFENSE,NONE,NONE,FALSE,FALSE,6,3,1,0,0,1,1,1,0,0,0,0,0,1,0,0,TRUE,NOT_ATTEMPTED,Truss the great lord of the unknowable nothingness ,Slow did almost nothing 
+Q51,6695,OFFENSE,NONE,NONE,FALSE,FALSE,2,3,3,0,0,3,0,2,0,0,0,0,0,0,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Disabled near end of teleop; then re-enabled to go and park in endgame.
+Q51,8119,OFFENSE,STATION,NONE,FALSE,FALSE,35,3,3,0,0,7,0,0,0,0,0,0,7,0,0,0,TRUE,NOT_ATTEMPTED,Aubrey,Filled most of the top row. Arm might have broke and slow intake
+Q51,8888,OFFENSE,STATION,NONE,FALSE,FALSE,12,3,2,0,0,8,0,3,0,5,0,0,0,0,0,0,TRUE,PARKED,Cozette ,Scored only in L1 
+Q51,9452,OFFENSE,STATION,REEF,TRUE,FALSE,23,3,3,0,0,5,5,2,3,0,0,0,3,0,2,0,TRUE,FAILED_DEEP,Angella,
+Q51,10586,OFFENSE,STATION,NONE,FALSE,TRUE,10,3,2,0,0,5,0,1,0,4,0,0,0,0,0,0,TRUE,PARKED,Jonas,Went to play defense after mostly filling L1; but nobody came to their station for the rest of the match. Slow.
+Q52,766,OFFENSE,STATION,NONE,FALSE,FALSE,35,10,4,0,0,10,2,2,2,0,0,0,8,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Coral cycling time about 15s.
+Q52,3341,OFFENSE,STATION,NONE,FALSE,FALSE,17,3,2,0,0,6,0,2,0,0,0,3,1,0,0,0,TRUE,NOT_ATTEMPTED,Jonas,Slow elevator and drivebase; coral was blocking them at the back of the reef; one cycle elevator did not retract until after they got to the station
+Q52,5025,OFFENSE,STATION,NONE,FALSE,FALSE,18,6,4,0,0,4,0,0,0,4,0,0,0,0,0,0,TRUE,DEEP,Cozette ,
+Q52,8891,OFFENSE,STATION,REEF,TRUE,FALSE,48,10,3,0,0,12,2,2,0,0,0,5,5,0,2,0,TRUE,NOT_ATTEMPTED,Aubrey,Medium timed cycles.
+Q53,2984,DEFENSE,STATION,NONE,FALSE,FALSE,2,3,4,0,17,1,0,0,0,0,0,0,0,0,0,0,TRUE,PARKED,Cozette ,
+Q53,4419,OFFENSE,STATION,NONE,FALSE,FALSE,46,3,2,0,0,9,0,1,0,2,0,0,6,0,0,0,TRUE,DEEP,Jonas,Very happy-go-lucky approach to aligning to reef; all L1s were dropped from other levels; climb takes a while
+Q53,7441,OFFENSE,STATION,NONE,FALSE,FALSE,12,3,2,0,0,5,0,2,0,0,0,0,2,0,0,0,TRUE,PARKED,Aubrey,Tippy
+Q54,8020,OFFENSE,STATION,NONE,TRUE,FALSE,40,10,3,0,0,8,0,1,0,0,0,2,5,0,0,0,TRUE,DEEP,Aubrey,Struggle aligning
+Q56,2839,OFFENSE,STATION,NONE,FALSE,FALSE,25,3,3,0,0,10,0,4,0,0,0,0,5,0,0,0,TRUE,NOT_ATTEMPTED,Yoshi,Slow and bulky; goodish driver; robot scored L4; low to the ground 
+Q56,4276,OFFENSE,STATION,NONE,TRUE,FALSE,32,0,3,0,0,11,2,6,2,0,0,5,0,0,0,0,FALSE,DEEP,Sir Bopticious (Zeal),Fast; consistent station intake. Defense was light; but did OK maneuvering it. Missed several coral: about 7.
+Q56,8119,OFFENSE,STATION,NONE,FALSE,FALSE,29,3,3,0,0,7,0,1,0,1,0,0,5,0,0,0,TRUE,PARKED,Daniel,Very wobbly when arm is up makes their scoring a little slower and they drive pretty slow and got 7/9 coral scored on l4 the other 2 they dropped
+Q59,5474,OFFENSE,STATION,NONE,TRUE,FALSE,22,3,3,0,0,4,3,0,2,1,0,3,0,1,0,0,TRUE,PARKED,Sir Bopticious (Zeal),Attempted an L4 auto; but missed and landed in L1. Missed about 2-3 coral in total. About 8-10 cycles. Didn't get to deep climb. Dislodged about 4 algae; and scored 1 in processor.
+Q59,9452,OFFENSE,STATION,REEF,TRUE,FALSE,43,6,4,0,0,6,1,0,0,1,0,0,5,1,0,0,TRUE,DEEP,Daniel,
+Q60,4419,OFFENSE,STATION,NONE,FALSE,FALSE,45,3,4,0,0,10,0,1,0,0,0,0,9,0,0,0,TRUE,FAILED_DEEP,Daniel,
+Q61,3341,OFFENSE,STATION,NONE,FALSE,FALSE,27,3,3,0,0,5,0,2,0,0,0,0,3,0,0,0,TRUE,DEEP,Daniel,Very wobbly tippy intaking needs to be precise don’t know how to cope with defense
+Q61,3704,DEFENSE,NONE,NONE,FALSE,TRUE,2,0,2,0,4,1,0,0,0,0,0,0,0,0,0,0,FALSE,PARKED,Sir Bopticious (Zeal),Taxi in auto. Not very fast defense. Did not see any penalties called.
+Q62,2710,OFFENSE,STATION,NONE,FALSE,FALSE,37,3,4,0,0,10,0,3,0,0,0,0,7,0,0,0,TRUE,PARKED,Cozette ,Only scored in L4. Very tippy. 
+Q62,2839,OFFENSE,STATION,NONE,FALSE,FALSE,40,3,3,0,0,11,0,2,0,0,0,0,8,0,0,0,TRUE,NOT_ATTEMPTED,Angella,
+Q62,5137,OFFENSE,STATION,REEF,TRUE,FALSE,48,10,4,0,0,7,2,0,0,0,0,2,5,0,2,0,TRUE,DEEP,Daniel,Good scoring on coral and algae a lot of useless movements when they drive fast they start to get tippy
+Q62,5514,OFFENSE,STATION,NONE,TRUE,FALSE,28,12,4,0,0,12,2,1,2,3,4,4,0,0,0,0,TRUE,FAILED_DEEP,Sir Bopticious (Zeal),Began deep climb sequence at 7s; but never made it off the ground. Consistent L2 and L3; about 10-12 of them. Only missed about 1 or two coral.
+Q64,9084,OFFENSE,STATION,NONE,TRUE,FALSE,50,24,5,0,0,17,3,1,3,0,5,5,6,0,0,0,TRUE,NOT_ATTEMPTED,Sir Bopticious (Zeal),Coral cycling about 5s. Only missed one coral in the whole match. 3.5 cycles in auto. Did not attempt to park or climb. I estimate about 14-17 coral cycles.
+Q64,9084,OFFENSE,STATION,REEF,TRUE,FALSE,50,24,5,0,0,17,0,1,0,0,5,5,6,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,
+Q65,3647,OFFENSE,GROUND,NONE,FALSE,FALSE,25,3,3,0,0,6,0,0,0,0,0,0,5,0,0,0,TRUE,NOT_ATTEMPTED,Angella,Not the most reliable ground intake; slow but consistent l4 scoring; got a coral stuck in them while trying to handoff the coral to their hand
+Q67,5474,OFFENSE,STATION,NONE,FALSE,FALSE,17,3,3,0,0,5,0,1,0,1,0,0,3,0,0,0,TRUE,NOT_ATTEMPTED,Angella,Missed one l4 in auto; 3/5 l4 in tele; 1/1 l3 in tele; 0/1 l2 in auto; one missed l4 fell to l1
+Q67,6072,OFFENSE,STATION,GROUND,FALSE,FALSE,16,3,2,0,0,3,2,2,0,1,0,0,0,2,0,0,TRUE,PARKED,Daniel,ALOT of useless movements intaking is bad and scoring is bad did nothing for like 30 seconds
+Q68,1622,OFFENSE,STATION,GROUND,FALSE,FALSE,17,6,3,0,0,4,1,0,0,1,3,0,0,1,0,0,TRUE,PARKED,Angella,3/3 l2 in tele; got coral stuck in their robot while trying to intake; scored 1 algae in processor; attempted to intake another algae but we’re having trouble and went to play defense with 50 secs left; played ok defense; did not play super active defense
+Q68,3255,OFFENSE,STATION,BOTH,TRUE,FALSE,71,17,5,0,0,16,5,4,1,0,3,5,4,2,2,0,TRUE,DEEP,Sir Bopticious (Zeal),Coral cycling about 5s on average. Missed first auto; but made the other two. Only missed about 5 or 6 coral in entire match. Deep climb at 7s. 100% consistent barge (2 scored).
+Q68,4984,OFFENSE,STATION,NONE,FALSE,FALSE,18,3,3,0,0,9,0,4,0,3,0,0,2,0,0,0,TRUE,PARKED,Daniel,
+Q69,4276,OFFENSE,STATION,NONE,TRUE,FALSE,44,3,4,0,0,12,4,3,4,2,0,7,0,0,0,0,TRUE,DEEP,Sir Bopticious (Zeal),Dislodged about 4 algae. Good; fast driving. Coral cycling 8s on average. Quick deep climb at 9s. Traffic slowed them down slightly.
+Q69,4419,OFFENSE,STATION,NONE,FALSE,FALSE,42,3,3,0,0,10,0,2,0,0,0,0,8,0,0,0,TRUE,PARKED,Angella,Only missed one l4; not the fastest robot but consistent l4 scoring
+Q69,5137,OFFENSE,STATION,BOTH,TRUE,FALSE,34,10,3,0,0,6,3,0,2,0,0,2,3,0,1,0,TRUE,DEEP,Daniel,
+Q70,2710,OFFENSE,STATION,NONE,TRUE,FALSE,54,10,4,0,0,10,0,0,0,1,0,0,9,0,0,0,TRUE,DEEP,Daniel,
+Q70,2710,OFFENSE,STATION,NONE,FALSE,FALSE,54,10,4,0,0,10,0,0,0,1,0,0,9,0,0,0,TRUE,DEEP,Angella,9/10 l4 in tele; very fast l4 cycles; missed one or and it dropped to l1
+Q71,5514,OFFENSE,STATION,NONE,FALSE,FALSE,32,6,3,0,0,13,0,1,0,5,2,5,0,0,0,0,TRUE,FAILED_SHALLOW,Angella,Fast and consistent l1; slow and consistent l2 and l3
+Q73,2839,OFFENSE,STATION,NONE,FALSE,FALSE,45,3,4,0,0,12,0,3,0,0,0,0,9,0,0,0,TRUE,NOT_ATTEMPTED,Daniel,
+Q76,3647,OFFENSE,STATION,NONE,TRUE,FALSE,2,10,2,0,0,2,0,1,0,0,0,0,1,0,0,0,TRUE,PARKED,Angella,They had a coral stuck in their arm for most of tele; sat idle for a while then wandered around until endgame
