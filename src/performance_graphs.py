@@ -103,25 +103,47 @@ def plot_teams_performance(team_groups, team_numbers):
 
 
 def plot_team_performance(team_df, team_number):
+    import matplotlib.pyplot as plt
+    import streamlit as st
+
+    # Ensure match_num sorting
     team_df['match_num'] = team_df['match'].str.extract(r'(\d+)').astype(int)
     df = team_df.sort_values(by='match_num')
+
     matches = df['match']
     auto_points = df['autoPoints']
     teleop_points = df['teleopPoints']
+    endgame_vals = []
+    for status in df['endgame']:
+                if isinstance(status, str):
+                    status = status.upper()
+                if status == "DEEP":
+                    endgame_vals.append(12)
+                elif status == "SHALLOW":
+                    endgame_vals.append(6)
+                elif status == "NOT_ATTEMPTED":
+                    endgame_vals.append(0)
+                else:
+                    endgame_vals.append(2)
+    fig, ax = plt.subplots(figsize=(12,6))
+
+    ax.bar(matches, auto_points, label='Auto Points', color="blue")
+    ax.bar(matches, teleop_points, bottom=auto_points, label='Teleop Points', color="green")
+    ax.bar(x, endgame_vals, width=bar_width, bottom=(np.array(auto_vals) + np.array(teleop_vals)),
+               color='orange', label='Endgame Bonus')
+
     
-    plt.figure(figsize=(12,6))
 
-    plt.bar(matches, auto_points, label='Auto Points', color="blue")
-    plt.bar(matches, teleop_points, label='Teleop Points', color="green")
+    ax.set_title(f"Team {team_number}'s Performance Across Recorded Matches")
+    ax.set_xlabel('Match Labels')
+    ax.set_ylabel('Points (Stacked)')
+    ax.legend(loc='upper left', fontsize='small')
+    ax.set_xticks(range(len(matches)))
+    ax.set_xticklabels(matches, rotation=45)
 
-    plt.title(f"Team {team_number}'s Performance Across Recorded matches")
-    plt.legend(loc='upper left', fontsize = 'small')
-    plt.xlabel('Match Labels')
-    plt.ylabel('Points (Auto/Tele, etc.)')
-    plt.xticks(rotation = 45)
+    st.pyplot(fig)
+    plt.close(fig)
 
-    st.pyplot(plt)
-    plt.close()
 
 
 
