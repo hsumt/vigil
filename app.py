@@ -163,7 +163,7 @@ elif menu == "API: Team History & Matches":
 
     team_number = st.number_input("Enter a Team Number", step=1)
     year = st.number_input("Enter a Year", step=1)
-
+    events = get_team_events(team_number, year)
     if st.button("Search Team API History"):
         history_data = get_team_data(team_number)
         if history_data:
@@ -173,19 +173,24 @@ elif menu == "API: Team History & Matches":
             st.error("Team not found.")
 
     if st.button("Get Team Events"):
-        events = get_team_events(team_number, year)
+
         if events:
-            event_key = st.selectbox("Select Event", [event['key'] for event in events])
-            matches = get_team_event_performance(f"frc{team_number}", event_key)
-            if matches:
-                st.write(f"Matches for {team_number} at {event_key}:")
-                for match in matches:
-                    st.write(f"{match['comp_level']} {match['match_number']}")
-                    st.json(match['score_breakdown'])
-            else:
-                st.warning("No matches found for this event.")
+            st.session_state.team_events = events
         else:
-            st.error("No events found for this team and year.")
+            st.session_state.team_events = []
+            st.error(f"No events found for team {team_number} in {year}")
+    if "team_events" in st.session_state and st.session_state.team_events:
+            event_keys = [event['key'] for event in events]
+            selected_event_key = st.selectbox("Select Event", event_keys, key="selected_event_key")
+            if st.button("Get Matches for Selected Event"):
+                matches = get_team_event_performance(f"frc{team_number}", selected_event_key)
+                if matches:
+                    st.write(f"Matches for {team_number} at {selected_event_key}:")
+                    for match in matches:
+                        st.write(f"{match['comp_level']} {match['match_number']}")
+                        st.json(match['score_breakdown'])
+                else:
+                    st.warning("No matches found for this event.")
 
 
 #Team Comparison
