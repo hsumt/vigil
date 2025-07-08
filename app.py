@@ -52,7 +52,7 @@ df = st.session_state.current_df
 team_groups = group_data_by_team(df)
 
 
-# Welcomne
+# Welcome
 
 
 if menu == "Welcome":

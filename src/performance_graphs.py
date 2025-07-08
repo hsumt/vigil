@@ -151,7 +151,7 @@ def plot_team_performance(team_df, team_number):
     ax.bar("FAILED DEEP Climbs", failed_deep_count, color="pink")
     ax.bar("Park", park_count, color="gray")
 
-    ax.set_title(f"Team {team_number} – Average Poxints and Climb Attempts")
+    ax.set_title(f"Team {team_number} – Average Points and Climb Attempts")
     ax.set_ylabel("Points / Match Count")
     ax.legend(loc='upper right')
     ax.grid(True, axis='y')
