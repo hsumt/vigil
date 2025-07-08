@@ -1,6 +1,8 @@
 # Vigil - FRC Scouting and Alliance Selection Assistant
 
-Vigil is a local-host offline-ready Python FRC robotics match trend monitor, anomaly detector, predictive dashboard and alliance selection assistant tool. It processes performance data (from CSV files, Statbotics, TheBlueAlliance and manual inputs) to help analyze team metrics at events, thus providing informed details during alliance selection, picklist construction and match strategy.
+https://vigil6995.streamlit.app/
+
+Vigil is both a local-host and live app, but offline-ready Python FRC robotics match trend monitor, anomaly detector, predictive dashboard and alliance selection assistant tool. It processes performance data (from CSV files, Statbotics, TheBlueAlliance and manual inputs) to help analyze team metrics at events, thus providing informed details during alliance selection, picklist construction and match strategy.
 
 ## Current Features
 - Simulate theoretical matchups between alliances
