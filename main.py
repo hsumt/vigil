@@ -4,7 +4,7 @@ from src.anomaly_detection import detect_anomalies
 from src.performance_graphs import plot_team_performance, plot_teams_performance
 from src.api import get_team_data, get_team_events, get_team_event_performance
 from src.comparison import analyze_team, compare_teams
-#from archive.vigil_assistant import start_vigil_assistant
+from src.vigil_assistant import start_vigil_assistant
 
 def main():
     vigilactive = False
@@ -60,7 +60,7 @@ def main():
                     print(f"\nCSV Upload failed. Data remains selected on current {filepath}\n\n")
             elif response == 2:
                 print("\n\nOpening Vigil AI . . .")
-                #start_vigil_assistant(df)
+                start_vigil_assistant(df)
             elif response == 3:
                 print("Viewing Health Trends...")
                 team_groups = group_data_by_team(df)
